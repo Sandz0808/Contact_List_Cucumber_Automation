@@ -1,0 +1,174 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>SeleniumCucumber</groupId>
+    <artifactId>SeleniumCucumber</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>JavaSeleniumCucumber</name>
+
+    <dependencies>
+       
+        <dependency>
+	        <groupId>junit</groupId>
+	        <artifactId>junit</artifactId>
+	        <version>4.13.2</version> <!-- Use the latest JUnit 4 version -->
+	        <scope>test</scope>
+	    </dependency>
+        
+	    <dependency>
+	        <groupId>io.cucumber</groupId>
+	        <artifactId>cucumber-java</artifactId>
+	        <version>7.18.1</version> <!-- or latest version -->
+	    </dependency>
+	    
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.18.1</version>
+            <scope>test</scope>
+        </dependency>
+        
+	    <!-- JUnit 5 dependencies -->
+	    <dependency>
+	        <groupId>org.junit.jupiter</groupId>
+	        <artifactId>junit-jupiter-api</artifactId>
+	        <version>5.11.0</version> <!-- or latest version -->
+	    </dependency>
+	    
+	    <dependency>
+	        <groupId>org.junit.jupiter</groupId>
+	        <artifactId>junit-jupiter-engine</artifactId>
+	        <version>5.11.0</version> <!-- or latest version -->
+	        <scope>test</scope>
+	    </dependency>
+	    
+	    <!-- JUnit Platform dependency for Maven -->
+	    <dependency>
+	        <groupId>org.junit.platform</groupId>
+	        <artifactId>junit-platform-launcher</artifactId>
+	        <version>1.11.0</version> <!-- or latest version -->
+	        <scope>test</scope>
+	    </dependency>
+	    
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.14.0</version> <!-- Check for the latest version -->
+        </dependency>
+
+        <!-- Add the JUnit Vintage engine to support JUnit 4 tests -->
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>5.11.0</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+		    <groupId>com.jayway.jsonpath</groupId>
+		    <artifactId>json-path</artifactId>
+		    <version>2.7.0</version> <!-- Check for the latest version on Maven Central -->
+		</dependency>
+		
+		<dependency>
+	        <groupId>com.github.javafaker</groupId>
+	        <artifactId>javafaker</artifactId>
+	        <version>1.0.2</version> <!-- Use the latest stable version -->
+    	</dependency>
+    	
+    	<dependency>
+		    <groupId>io.github.bonigarcia</groupId>
+		    <artifactId>webdrivermanager</artifactId>
+		    <version>5.3.0</version> <!-- You can check for the latest version -->
+		</dependency>
+	    
+	    <dependency>
+	        <groupId>io.cucumber</groupId>
+	        <artifactId>cucumber-junit-platform-engine</artifactId>
+	        <version>7.18.1</version> 
+	        <scope>test</scope>
+	    </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-testng</artifactId>
+		    <version>7.18.1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-java</artifactId>
+		    <version>4.27.0</version>
+		</dependency>
+
+    </dependencies>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version>
+            <configuration>
+				<properties>
+			        <property>
+			            <name>dataproviderthreadcount</name>
+			            <value>20</value>
+			        </property>
+			    </properties>
+			    <suiteXmlFiles>
+                    <suiteXmlFile>testng.xml</suiteXmlFile> <!-- Your TestNG XML file -->
+                </suiteXmlFiles>
+				<includes>**/TestNgRunner.java</includes>
+				<includes>**/TestRunner.java</includes>
+				<systemProperties>
+                    <property>
+                        <name>base.url</name>
+                        <value>${base.url}</value> <!-- Pass the base.url from the profile -->
+                    </property>
+                </systemProperties>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+	 <profiles>
+	    <profile>
+	        <id>staging</id>
+	        <properties>
+	            <base.url>https://thinking-tester-contact-list.herokuapp.com/</base.url>
+	        </properties>
+	    </profile>
+	    <profile>
+	        <id>development</id>
+	        <properties>
+	            <base.url>https://thinking-tester-development-contact-list.herokuapp.com/</base.url>
+	        </properties>
+	    </profile>
+	    <profile>
+	        <id>production</id>
+	        <properties>
+	            <base.url>https://thinking-tester-production-contact-list.herokuapp.com/</base.url>
+	        </properties>
+	    </profile>
+	</profiles>
+</project>

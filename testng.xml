@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="test" thread-count="${thread-count}">
+	
+	<test name="SeleniumCucumberChrome">
+		<classes>
+			<class name="com.test_runner.TestNgRunner" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,123 @@
+{
+  "CreateUserBlankFields" : {
+    "firstName" : " ",
+    "lastName" : " ",
+    "email" : " ",
+    "blankPassword" : " "
+  },
+  "AuthCode" : {
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzc1ZjczMmFjNjZhMjAwMTNlNDVkNTUiLCJpYXQiOjE3MzU3ODQyNDJ9.dtx5YnCnNn-4B8YFBdc10ArnzbgqPvvXiA5kQuM1R1M"
+  },
+  "CreateUserAPI" : {
+    "firstName" : "Federico",
+    "lastName" : "Green",
+    "email" : "burma.jacobs@hotmail.com",
+    "password" : "04en5hxolzkkkx",
+    "fullName" : "Federico Green"
+  },
+  "CreateSuccessResponseAPI" : {
+    "expectedResponse" : "201"
+  },
+  "AddingSuccessResponseAPI" : {
+    "expectedResponse" : "201"
+  },
+  "UpdateSuccessResponseAPI" : {
+    "expectedResponse" : "200"
+  },
+  "DeleteSuccessResponseAPI" : {
+    "expectedResponse" : "201",
+    "othereExpectedResponse" : "204"
+  },
+  "FailedAddingResponseAPI" : {
+    "expectedResponse" : "400"
+  },
+  "FailedCreateUserResponseAPI" : {
+    "expectedResponse" : "400"
+  },
+  "FailedCreateUserResponseCode" : {
+    "expectedResponse" : "400"
+  },
+  "FaieldUpdateResponseAPI" : {
+    "expectedResponse" : "400"
+  },
+  "FailedDeleteResponseAPI" : {
+    "expectedResponse" : "500"
+  },
+  "FailedDeleteAPI" : {
+    "invalidID" : "66e23a0b8295490013f853bdssa"
+  },
+  "AddNewContactAPI" : {
+    "firstName" : "Jacques",
+    "lastName" : "Strosin",
+    "dateOfBirth" : "1990/04/17",
+    "email" : "eddy.bednar@yahoo.com",
+    "phone" : "5659061",
+    "stAddress1" : "45990 Inga Groves",
+    "stAddress2" : "Suite 530",
+    "city" : "Lake Corrinview",
+    "state" : "Florida",
+    "postalCode" : "56411",
+    "country" : "Republic of Korea",
+    "fullName" : "Jacques Strosin"
+  },
+  "AddContactWithBlankFields" : {
+    "firstName" : "Ruthe",
+    "lastName" : "Sporer",
+    "fullName" : "Ruthe Sporer"
+  },
+  "SuccessDeleteResponseAPI" : {
+    "expectedResponse" : "200"
+  },
+  "AddContactBlankReqFieldsAPI" : {
+    "lastName" : "Gibson",
+    "dateOfBirth" : "2004/09/24",
+    "email" : "oleta.kreiger@gmail.com",
+    "phone" : "0204123",
+    "stAddress1" : "96836 Lang Drive",
+    "stAddress2" : "Apt. 750",
+    "city" : "Cummingsbury",
+    "state" : "California",
+    "postalCode" : "14404",
+    "country" : "Antigua and Barbuda",
+    "fullName" : " Gibson"
+  },
+  "CreateUserExisting" : {
+    "firstName" : "Exercise Test",
+    "lastName" : "Main Tester",
+    "email" : "NewUser@mail.com",
+    "blankPassword" : " "
+  },
+  "CreateWithBlankFields" : {
+    "firstName" : " ",
+    "lastName" : " ",
+    "email" : " ",
+    "blankPassword" : " "
+  },
+  "UpdateValuesAPI" : {
+    "firstName" : "Rene",
+    "lastName" : "Cummings",
+    "email" : "barrett.murphy@gmail.com",
+    "dateOfBirth" : "1976/12/28",
+    "phone" : "0161898",
+    "stAddress1" : "393 Amberly Manor",
+    "stAddress2" : "Suite 914",
+    "city" : "Port Walton",
+    "state" : "Texas",
+    "postalCode" : "62290",
+    "country" : "Greenland",
+    "fullName" : "Rene Cummings"
+  },
+  "UpdateBlankValuesAPI" : {
+    "firstName" : " ",
+    "lastName" : " ",
+    "birthdate" : " ",
+    "email" : " ",
+    "phone" : " ",
+    "street1" : " ",
+    "street2" : " ",
+    "city" : " ",
+    "stateProvince" : " ",
+    "postalCode" : " ",
+    "country" : " "
+  }
+}

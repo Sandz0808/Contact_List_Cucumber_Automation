@@ -1,0 +1,44 @@
+{
+  "AddContactFields" : {
+    "firstName" : "Rene",
+    "lastName" : "Cummings",
+    "email" : "barrett.murphy@gmail.com",
+    "dateOfBirth" : "1976/12/28",
+    "phone" : "0161898",
+    "stAddress1" : "393 Amberly Manor",
+    "stAddress2" : "Suite 914",
+    "city" : "Port Walton",
+    "state" : "Texas",
+    "postalCode" : "62290",
+    "country" : "Greenland",
+    "fullName" : "Rene Cummings"
+  },
+  "ErrorMsgAddWithBlankField" : {
+    "blankFnameAndLName" : "Contact validation failed: firstName: Path `firstName` is required., lastName: Path `lastName` is required.",
+    "blankFname" : "Contact validation failed: firstName: Path `firstName` is required."
+  },
+  "UpdateValues" : {
+    "newPhone" : "2607471",
+    "newEmail" : "newemail@mail.com",
+    "newCity" : "West Nolanfurt",
+    "newPostalCode" : "71313",
+    "newStAddress" : "newAddress",
+    "fullName" : " "
+  },
+  "ErrorMsgDetailUpdate" : {
+    "expectedBlankReqFieldsMsg" : "Validation failed: lastName: Path `lastName` is required., firstName: Path `firstName` is required.",
+    "expectedBlankFnamesMsg" : "Validation failed: firstName: Path `firstName` is required."
+  },
+  "InvalidLoginCredentials" : {
+    "email" : "notexisting@mail.com",
+    "password" : "tes12t123456"
+  },
+  "BlankCredentialsLogin" : {
+    "email" : "",
+    "password" : ""
+  },
+  "ErrorMsgInvalidLogin" : {
+    "invalidCredErrMsg" : "Incorrect username or password",
+    "password" : "tes12t123456"
+  }
+}

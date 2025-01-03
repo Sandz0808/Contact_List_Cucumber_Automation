@@ -1,0 +1,16 @@
+{
+  "_id" : "6775f733ac66a20013e45d57",
+  "firstName" : "Mandy",
+  "lastName" : "Schmidt",
+  "birthdate" : "1979/05/18",
+  "email" : "barrett.murphy@gmail.com",
+  "phone" : "5567780",
+  "street1" : "728 Murray Corners",
+  "street2" : "Apt. 507",
+  "city" : "East Joanastad",
+  "stateProvince" : "Texas",
+  "postalCode" : "49531-6656",
+  "country" : "Saint Kitts and Nevis",
+  "owner" : "6775f732ac66a20013e45d55",
+  "__v" : 0
+}

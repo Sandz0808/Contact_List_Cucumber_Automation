@@ -1,0 +1,10 @@
+{
+  "user" : {
+    "_id" : "6775f732ac66a20013e45d55",
+    "firstName" : "Mandy",
+    "lastName" : "Schmidt",
+    "email" : "laurine.mcglynn@yahoo.com",
+    "__v" : 1
+  },
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzc1ZjczMmFjNjZhMjAwMTNlNDVkNTUiLCJpYXQiOjE3MzU3ODQyNDJ9.dtx5YnCnNn-4B8YFBdc10ArnzbgqPvvXiA5kQuM1R1M"
+}

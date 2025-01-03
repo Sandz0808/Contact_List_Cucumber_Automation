@@ -1,0 +1,11 @@
+[ERROR] [06:22:53,331] There is no configurator present for UTA junit launch. Cannot properly run junits with tracing. Required service: interface com.parasoft.xtest.testassist.api.launching.ITestAssistLaunchConfigurator at com.parasoft.xtest.testassist.eclipse.TestAssistPlugin.getTracerBundleLocation(TestAssistPlugin.java:90)
+[ERROR] [06:22:53,339] Could not find the plugin's location. Verify if any plugin has been configured.
+	at com.parasoft.xtest.testassist.launching.RuntimeLaunchingSettings.setupURLs(RuntimeLaunchingSettings.java:57)
+	at com.parasoft.xtest.testassist.launching.RuntimeLaunchingSettings.<init>(RuntimeLaunchingSettings.java:47)
+	at com.parasoft.xtest.testassist.eclipse.TestAssistPlugin.getLaunchingSettings(TestAssistPlugin.java:82)
+	at com.parasoft.xtest.testassist.eclipse.internal.actions.EclipseJUnitLauncher.getLaunchingSettings(EclipseJUnitLauncher.java:622)
+	at com.parasoft.xtest.testassist.ui.launching.StandaloneJUnitLauncher.getLaunchingSettings(StandaloneJUnitLauncher.java:374)
+	at com.parasoft.xtest.testassist.ui.view.TracerSocketServer.startSocketServer(TracerSocketServer.java:328)
+	at com.parasoft.xtest.testassist.ui.view.TracerSocketServer.run(TracerSocketServer.java:107)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+ at com.parasoft.xtest.testassist.launching.RuntimeLaunchingSettings.setupURLs(RuntimeLaunchingSettings.java:57)
