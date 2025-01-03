@@ -1,4 +1,4 @@
-# Selenium Cucumber - Java Framework
+# Selenium Cucumber Framework
 #### This Selenium Cucumber Automation Framework is designed for efficient and scalable end-to-end testing of web applications. By integrating the strengths of Selenium and Cucumber, this framework enables seamless cross-browser testing with a clear focus on behavior-driven development (BDD).
 
 ## Table of Contents
