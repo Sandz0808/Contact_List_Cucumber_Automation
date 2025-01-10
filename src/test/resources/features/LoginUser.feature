@@ -12,6 +12,6 @@ Feature: LoginUser
     
   @TC2.2
   Scenario: Login User
-    When User populates required login fields with email "Empty@mail.com", password "test123456"
+    When User populates required login fields with email "<email>", password "<password>"
     And User clicks submit button in the Login Page
     Then Verify Contact List Page
