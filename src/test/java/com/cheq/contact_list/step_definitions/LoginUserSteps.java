@@ -75,6 +75,9 @@ public class LoginUserSteps {
     @When("User populates required login fields with email {string}, password {string}")
     public void user_populates_required_login_fields_with_email_and_password(String email, String password) throws IOException, AWTException {
 
+	email = TestDataGenerator.getGeneratedDataFromDictionary(dataGroup, "email");
+    	password = TestDataGenerator.getGeneratedDataFromDictionary(dataGroup, "password");
+
         loginPage.enterEmail(email);
         loginPage.enterPassword(password);  
     }
