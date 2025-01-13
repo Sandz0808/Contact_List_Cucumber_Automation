@@ -159,8 +159,8 @@ mvn test -Pstaging -Dbrowser=firefox -Dtest=TestRunner
 ```
 To run specific scenario, using tags.
 ```bash
-mvn test -Pstaging -Dbrowser="chrome" -Dtest=com.test_runner.TestRunner -Dcucumber.filter.tags="@DeleteContact"
-mvn test -Pstaging -Dbrowser="edge" -Dtest=com.test_runner.TestRunner -Dcucumber.filter.tags="@TC3.3"
+mvn test -Pstaging -Dbrowser="chrome" -Dtest=TestRunner -Dcucumber.filter.tags="@DeleteContact"
+mvn test -Pstaging -Dbrowser="edge" -Dtest=TestRunner -Dcucumber.filter.tags="@TC3.3"
 ```
 Please refer to the table below for the list of tags and their description.
 
