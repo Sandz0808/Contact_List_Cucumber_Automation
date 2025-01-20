@@ -20,7 +20,7 @@ public class BasePage {
     }
   
     /** Element locators for the login page */
-    private By LOGOUT_BTN = By.cssSelector("#logout");
+    private final By LOGOUT_BTN = By.cssSelector("#logout");
 
     /** Clicks the logout button to log in using the mouse action utility */
     public void clickLogoutButton() throws Exception {

@@ -1,10 +1,10 @@
 {
   "user" : {
-    "_id" : "6775f732ac66a20013e45d55",
-    "firstName" : "Mandy",
-    "lastName" : "Schmidt",
-    "email" : "laurine.mcglynn@yahoo.com",
+    "_id" : "678df6a8c025b30013db62bb",
+    "firstName" : "Zoe",
+    "lastName" : "Kautzer",
+    "email" : "abraham.mann@yahoo.com",
     "__v" : 1
   },
-  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzc1ZjczMmFjNjZhMjAwMTNlNDVkNTUiLCJpYXQiOjE3MzU3ODQyNDJ9.dtx5YnCnNn-4B8YFBdc10ArnzbgqPvvXiA5kQuM1R1M"
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhkZjZhOGMwMjViMzAwMTNkYjYyYmIiLCJpYXQiOjE3MzczNTY5Njh9.26j9gnOl4P-X6dwHYWtUS-NmtGGAppPEib3rMiknAJE"
 }

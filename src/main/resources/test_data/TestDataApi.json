@@ -6,7 +6,7 @@
     "blankPassword" : " "
   },
   "AuthCode" : {
-    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzc1ZjczMmFjNjZhMjAwMTNlNDVkNTUiLCJpYXQiOjE3MzU3ODQyNDJ9.dtx5YnCnNn-4B8YFBdc10ArnzbgqPvvXiA5kQuM1R1M"
+    "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhkZjZhOGMwMjViMzAwMTNkYjYyYmIiLCJpYXQiOjE3MzczNTY5Njh9.26j9gnOl4P-X6dwHYWtUS-NmtGGAppPEib3rMiknAJE"
   },
   "CreateUserAPI" : {
     "firstName" : "Federico",
