@@ -34,7 +34,7 @@ public class ContactListPage {
     }
 
     /** Clicks on Test Contact using the mouse action utility  */
-    public void clickTestContact() throws Exception {
+    public void clickSelectedContact() throws Exception {
      	mouseActionsUtil.clickElement(CONTACT_FULLNAME_TXT);
     }
 

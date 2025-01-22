@@ -60,4 +60,5 @@ public class LoginPage {
     public void verifyContactListPage(String attribute,String expectedValue) throws IOException, AWTException  {
         elementAssertUtil.assertElementAttribute(CONTACT_LIST_LBL, attribute, expectedValue);
     }
-}
+    
+ }

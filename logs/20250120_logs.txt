@@ -1545,3 +1545,82 @@
 2025-01-20 15:09:34,875 - INFO - Element located by ( 'By.cssSelector: #email' ) is visible within the timeout period.
 2025-01-20 15:09:34,986 - INFO - The actual value of the attribute is: ( 'barrett.murphy@gmail.com' ).
 2025-01-20 15:09:35,098 - INFO - Assertion passed. Actual value: ( 'barrett.murphy@gmail.com' ), Expected value: ( 'barrett.murphy@gmail.com' ).
+2025-01-20 22:05:13,543 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:05:13,558 - INFO - ` Date : January 20, 2025 10:05 PM `
+2025-01-20 22:05:13,558 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:05:17,464 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:05:17,465 - INFO - ` Date : January 20, 2025 10:05 PM `
+2025-01-20 22:05:17,466 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:08:01,859 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:08:01,868 - INFO - ` Date : January 20, 2025 10:08 PM `
+2025-01-20 22:08:01,869 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:08:05,205 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:08:05,206 - INFO - ` Date : January 20, 2025 10:08 PM `
+2025-01-20 22:08:05,207 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:31:28,444 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:31:28,454 - INFO - ` Date : January 20, 2025 10:31 PM `
+2025-01-20 22:31:28,455 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:31:32,487 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:31:32,488 - INFO - ` Date : January 20, 2025 10:31 PM `
+2025-01-20 22:31:32,489 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:32:21,744 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:32:21,756 - INFO - ` Date : January 20, 2025 10:32 PM `
+2025-01-20 22:32:21,759 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:36:56,582 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:36:56,592 - INFO - ` Date : January 20, 2025 10:36 PM `
+2025-01-20 22:36:56,593 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:38:05,866 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:38:05,870 - INFO - ` Date : January 20, 2025 10:38 PM `
+2025-01-20 22:38:05,870 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:41:12,997 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:41:13,000 - INFO - ` Date : January 20, 2025 10:41 PM `
+2025-01-20 22:41:13,001 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:49:43,937 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:49:43,946 - INFO - ` Date : January 20, 2025 10:49 PM `
+2025-01-20 22:49:43,947 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:49:48,036 - INFO - Element located by ( 'By.cssSelector: #email' ) is visible within the timeout period.
+2025-01-20 22:49:48,669 - INFO - Entering the text value 'leigh.fritsch@hotmail.com' into the element located by ( 'By.cssSelector: #email' ).
+2025-01-20 22:49:48,798 - INFO - Element located by ( 'By.cssSelector: #password' ) is visible within the timeout period.
+2025-01-20 22:49:48,980 - INFO - Entering the text value 'smcvhv7rb5gxp10' into the element located by ( 'By.cssSelector: #password' ).
+2025-01-20 22:49:49,212 - INFO - Element located by ( 'By.cssSelector: #submit' ) is visible within the timeout period.
+2025-01-20 22:49:49,376 - INFO - Clicking the element identified by ( 'By.cssSelector: #submit' ) successful.
+2025-01-20 22:49:59,761 - SEVERE - Timeout occurred: Element located by ( 'By.cssSelector: .main-content header h1' ) is not visible within the specified timeout.
+2025-01-20 22:51:30,037 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:51:30,046 - INFO - ` Date : January 20, 2025 10:51 PM `
+2025-01-20 22:51:30,046 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:52:30,844 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:52:30,853 - INFO - ` Date : January 20, 2025 10:52 PM `
+2025-01-20 22:52:30,854 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:52:34,586 - INFO - Element located by ( 'By.cssSelector: #email' ) is visible within the timeout period.
+2025-01-20 22:52:34,944 - INFO - Entering the text value 'cathern.hodkiewicz@gmail.com' into the element located by ( 'By.cssSelector: #email' ).
+2025-01-20 22:52:35,066 - INFO - Element located by ( 'By.cssSelector: #password' ) is visible within the timeout period.
+2025-01-20 22:52:35,221 - INFO - Entering the text value 'bjce3xueu' into the element located by ( 'By.cssSelector: #password' ).
+2025-01-20 22:52:35,450 - INFO - Element located by ( 'By.cssSelector: #submit' ) is visible within the timeout period.
+2025-01-20 22:52:35,586 - INFO - Clicking the element identified by ( 'By.cssSelector: #submit' ) successful.
+2025-01-20 22:52:45,997 - SEVERE - Timeout occurred: Element located by ( 'By.cssSelector: .main-content header h1' ) is not visible within the specified timeout.
+2025-01-20 22:53:39,715 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:53:39,726 - INFO - ` Date : January 20, 2025 10:53 PM `
+2025-01-20 22:53:39,726 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:53:42,964 - INFO - Element located by ( 'By.cssSelector: #email' ) is visible within the timeout period.
+2025-01-20 22:53:43,251 - INFO - Entering the text value 'sander' into the element located by ( 'By.cssSelector: #email' ).
+2025-01-20 22:53:43,358 - INFO - Element located by ( 'By.cssSelector: #password' ) is visible within the timeout period.
+2025-01-20 22:53:43,506 - INFO - Entering the text value '1234567' into the element located by ( 'By.cssSelector: #password' ).
+2025-01-20 22:53:43,720 - INFO - Element located by ( 'By.cssSelector: #submit' ) is visible within the timeout period.
+2025-01-20 22:53:43,855 - INFO - Clicking the element identified by ( 'By.cssSelector: #submit' ) successful.
+2025-01-20 22:53:54,301 - SEVERE - Timeout occurred: Element located by ( 'By.cssSelector: .main-content header h1' ) is not visible within the specified timeout.
+2025-01-20 22:54:22,791 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:54:22,799 - INFO - ` Date : January 20, 2025 10:54 PM `
+2025-01-20 22:54:22,800 - INFO - ````````````````````````````````````````````````````
+2025-01-20 22:54:25,985 - INFO - Element located by ( 'By.cssSelector: #email' ) is visible within the timeout period.
+2025-01-20 22:54:26,515 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.cssSelector: #email' ).
+2025-01-20 22:54:26,881 - INFO - Element located by ( 'By.cssSelector: #password' ) is visible within the timeout period.
+2025-01-20 22:54:27,236 - INFO - Entering the text value '1234567' into the element located by ( 'By.cssSelector: #password' ).
+2025-01-20 22:54:27,895 - INFO - Element located by ( 'By.cssSelector: #submit' ) is visible within the timeout period.
+2025-01-20 22:54:28,252 - INFO - Clicking the element identified by ( 'By.cssSelector: #submit' ) successful.
+2025-01-20 22:54:29,052 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-20 22:54:29,174 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-20 22:54:29,296 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-01-20 22:54:29,395 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-01-20 22:57:48,673 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-20 22:57:48,684 - INFO - ` Date : January 20, 2025 10:57 PM `
+2025-01-20 22:57:48,685 - INFO - ````````````````````````````````````````````````````

@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         "html:reports/extent_html/extent_report.html", 
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", 
         "timeline:test-output-thread/"
-    }
-
+      }
+   
 )
 public class TestRunner {
 

@@ -46,15 +46,26 @@ public class TestDataGenerator {
                     dataGroupNode.put("postalCode", faker.address().zipCode());
                     break;
                 case "country":
-                    dataGroupNode.put("country", faker.address().country());
-                    break;
+                	String country = faker.address().country();
+                	
+                	if (country.length() > 10) {
+                		country = country.substring(0, 10);  // Shorten to 10 characters max
+                    }
+                	
+                	dataGroupNode.put("country", faker.address().country());
+                     break;
                 case "city":
                     dataGroupNode.put("city", faker.address().city());
                     break;
                 case "state":
-                    String[] states = {"California", "Texas", "Florida", "New York", "Illinois", "Pennsylvania", "Ohio", "Georgia", "North Carolina", "Michigan"};
-                    String randomState = states[faker.random().nextInt(states.length)];
-                    dataGroupNode.put("state", randomState);
+                    // Generate the state name from Faker
+                    String state = faker.address().state();
+                    
+                    // If the state is too long (e.g., longer than 10 characters), trim it.
+                    if (state.length() > 10) {
+                        state = state.substring(0, 10);  // Shorten to 10 characters max
+                    }
+                    dataGroupNode.put("state", state);
                     break;
                 case "stAddress2":
                     dataGroupNode.put("stAddress2", faker.address().secondaryAddress());

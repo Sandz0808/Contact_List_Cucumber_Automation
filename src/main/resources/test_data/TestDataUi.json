@@ -1,16 +1,16 @@
 {
   "AddContactFields" : {
-    "firstName" : "Rene",
-    "lastName" : "Cummings",
-    "email" : "barrett.murphy@gmail.com",
+    "firstName": "",
+    "lastName": "Cummings",
+    "email": "barrett.murphy@gmail.com",
     "dateOfBirth" : "1976/12/28",
-    "phone" : "0161898",
-    "stAddress1" : "393 Amberly Manor",
-    "stAddress2" : "Suite 914",
-    "city" : "Port Walton",
-    "state" : "Texas",
-    "postalCode" : "62290",
-    "country" : "Greenland",
+    "phone": "016189809",
+    "stAddress1": "393 Amberly Manor",
+    "stAddress2": "Suite 914",
+    "city": "Port Walton",
+    "state": "Texas",
+    "postalCode": "62290",
+    "country": "Greenland",
     "fullName" : "Rene Cummings"
   },
   "ErrorMsgAddWithBlankField" : {
@@ -40,5 +40,25 @@
   "ErrorMsgInvalidLogin" : {
     "invalidCredErrMsg" : "Incorrect username or password",
     "password" : "tes12t123456"
-  }
+  },
+  
+  "ValidLoginCredentials" : {
+    "email" : "sander@gmail.com",
+     "password" : "1234567"
+    },
+   "InvalidSignup" : {
+	"firstName": "InvalidFirstName",
+	"lastName": "InvalidLastName",
+	"email": "sander@gmail.com",
+	"password" : "1234567"
+	},
+		
+	"EditContactDetails" : {
+	 "firstName" : "Updated First Name",
+	"lastName" : "Updated Last Name",
+	"invalidDOB": "08-08-2000"
+	    
+	}		
+		
+		
 }

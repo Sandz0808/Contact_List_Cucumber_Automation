@@ -32,20 +32,19 @@ public class AddContactPage {
     }
 
     /** Element locators for the Add Contact page */
-    private By FIRST_NAME_TXT = By.cssSelector("#firstName");
-    private By LAST_NAME_TXT = By.cssSelector("#lastName");
-    private By DATE_OF_BIRTH_TXT = By.cssSelector("#birthdate");
-    private By EMAIL_TXT = By.cssSelector("#email");
-    private By PHONE_NUM_TXT = By.cssSelector("#phone");
-    private By STREET_ADDRESS1_TXT = By.cssSelector("#street1");
-    private By STREET_ADDRESS2_TXT = By.cssSelector("#street2");
-    private By CITY_TXT = By.cssSelector("#city");
-    private By STATE_TXT = By.cssSelector("#stateProvince");
-    private By POSTAL_CODE_TXT = By.cssSelector("#postalCode");
-    private By COUNTRY_TXT = By.cssSelector("#country");
-    private By SUBMIT_BTN = By.cssSelector("#submit");
-    private By CANCEL_BTN = By.cssSelector("#cancel");
-    private By BLANK_FIELD_ERR_LBL = By.cssSelector("#error");
+    private By FIRST_NAME_TXT = By.id("firstName");
+    private By LAST_NAME_TXT = By.id("lastName");
+    private By DATE_OF_BIRTH_TXT = By.id("birthdate");
+    private By EMAIL_TXT = By.id("email");
+    private By PHONE_NUM_TXT = By.id("phone");
+    private By STREET_ADDRESS1_TXT = By.id("street1");
+    private By STREET_ADDRESS2_TXT = By.id("street2");
+    private By CITY_TXT = By.id("city");
+    private By STATE_TXT = By.id("stateProvince");
+    private By POSTAL_CODE_TXT = By.id("postalCode");
+    private By COUNTRY_TXT = By.id("country");
+    private By SUBMIT_BTN = By.id("submit");
+    private By BLANK_FIELD_ERR_LBL = By.id("error");
 
     /** Populates the first name field with the provided value 
      * @throws AWTException */
@@ -60,7 +59,7 @@ public class AddContactPage {
     }
 
     /** Populates the city field with the provided value */
-    public void entereCity(String city) throws IOException, AWTException  {
+    public void enterCity(String city) throws IOException, AWTException  {
     	keyboardActionsUtil.inputElement(CITY_TXT, city);
     }
 
@@ -106,7 +105,7 @@ public class AddContactPage {
     	keyboardActionsUtil.inputElement(STREET_ADDRESS2_TXT, stAddress2);
     }
 
-    /** Clicks the submit button after waiting for it to be clickable */
+    /** Clicks the submit button after waiting for it to be click able */
     public void clickSubmitButton() throws Exception {
     	mouseActionsUtil.clickElement(SUBMIT_BTN);
     	waitUtil.implicitWait();
