@@ -30,33 +30,27 @@ public class LoginPage {
   
     /** Element locators for the login page */
     private By CONTACT_LIST_LBL = By.cssSelector(".main-content header h1");
-    private By EMAIL_TXT = By.cssSelector("#email");
-    private By PASSWORD_TXT = By.cssSelector("#password");
-    private By SUBMIT_BTN = By.cssSelector("#submit");
-    private By INVALID_CRED_LBL = By.cssSelector("#error");
+    private By EMAIL_TXT = By.id("email");
+    private By PASSWORD_TXT = By.id("password");
+    private By SUBMIT_BTN = By.id("submit");
+    private By INVALID_CRED_LBL = By.id("error");
 
-    /** Enters an email into the email field using the keyboard action utility */
     public void enterEmail(String dataName) throws IOException, AWTException  {
         keyboardActionsUtil.inputElement(EMAIL_TXT, dataName);
     }
-
-    /** Enters a password into the password field using the keyboard action utility */
+   
     public void enterPassword(String dataName) throws IOException, AWTException  {
         keyboardActionsUtil.inputElement(PASSWORD_TXT, dataName);
     }
 
-    /** Clicks the submit button to log in using the mouse action utility 
-     * @throws Exception */
     public void clickSubmitButton() throws Exception {
     	mouseActionsUtil.clickElement(SUBMIT_BTN);
     }
 
-    /** Verifies the invalid credentials error message using the element assertion utility */
     public void verifyInvalidCredErrorMessage(String attribute, String expectedValue) throws IOException, AWTException  {
         elementAssertUtil.assertElementAttribute(INVALID_CRED_LBL, attribute, expectedValue);
     }
 
-    /** Verifies that the user is on the contact list page after login using the element assertion utility */
     public void verifyContactListPage(String attribute,String expectedValue) throws IOException, AWTException  {
         elementAssertUtil.assertElementAttribute(CONTACT_LIST_LBL, attribute, expectedValue);
     }

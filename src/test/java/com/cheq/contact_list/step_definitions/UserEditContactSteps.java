@@ -42,7 +42,6 @@ public class UserEditContactSteps {
 
 	    }
 	    
-	    /** Initializes properties and the JSON file */
 	    public void getProperty() {
 	        configReaderUtil = new ConfigReaderUtil();
 	        property = configReaderUtil.initProperty();
@@ -73,35 +72,39 @@ public class UserEditContactSteps {
 		}
 		
 		@When("User clears the fields to edit")
-		public void user_clears_the_fields_to_edit() throws IOException, AWTException {
-			editContactPage.clearFirstName();
-			editContactPage.clearLastName();
-		    
+		public void user_clears_the_fields_to_edit() throws IOException, AWTException, InterruptedException {
+			editContactPage.clearEmail();
+			editContactPage.clearPhoneNum();
+			Thread.sleep(3000);
 		}
 		
 		@When("User enters valid details into the cleared fields")
 		public void user_enters_valid_details_into_the_cleared_fields() throws IOException, AWTException {
 			
 			JsonNode loginData = DataDictionaryUtil.getDataNode(testDataUI, "EditContactDetails");		
-			String updatedFirstName = loginData.path("email").asText();
-		    String updatedLastName = loginData.path("password").asText();	
-	        editContactPage.enterEmail(updatedFirstName);
-			editContactPage.enterPhoneNumber(updatedLastName);
+			String email = loginData.path("email").asText();
+		    String phone = loginData.path("phone").asText();	
+	        editContactPage.enterEmail(email);
+			editContactPage.enterPhoneNumber(phone);
 					    
 		}
 		
 		@When("User clicks the Submit button")
 		public void user_clicks_the_submit_button() throws Exception {
 			editContactPage.clickSubmitButton();
+			Thread.sleep(3000);
 		    
 		}
 		
 		@Then("User verifies if the contact is updated")
 		public void user_verifies_if_the_contact_is_updated() throws IOException, AWTException {
+			JsonNode loginData = DataDictionaryUtil.getDataNode(testDataUI, "EditContactDetails");
+	    	
+	    	String email = loginData.path("email").asText();
+	        String phone = loginData.path("phone").asText();
 			
-			contactDetailsPage.verifyPageLabel("innertext", "");
-			contactDetailsPage.verifyUpdatedFirstName("innerText", "");
-			contactDetailsPage.verifyUpdatedLastName("innerText", "");
+			contactDetailsPage.verifyUpdatedEmail("innerText", email);
+			contactDetailsPage.verifyUpdatedPhoneNum("innerText", phone);
 		    
 		}
 		
@@ -111,7 +114,8 @@ public class UserEditContactSteps {
 			
 			JsonNode loginData = DataDictionaryUtil.getDataNode(testDataUI, "EditContactDetails");		
 			String invalidDOB = loginData.path("invalidDOB").asText();
-	        editContactPage.enterEmail(invalidDOB);
+			
+	        editContactPage.enterDateOfBirth(invalidDOB);
 	        editContactPage.clickSubmitButton();
 	        
 		}

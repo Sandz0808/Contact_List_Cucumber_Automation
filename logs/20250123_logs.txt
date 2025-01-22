@@ -1,0 +1,171 @@
+2025-01-23 00:00:14,418 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:00:14,418 - INFO - ` Date : January 23, 2025 12:00 AM `
+2025-01-23 00:00:14,419 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:00:16,813 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:17,063 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:17,247 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:00:17,496 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 00:00:17,689 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:17,891 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:19,256 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 00:00:20,386 - INFO - Clicking the element identified by ( 'By.xpath: //tr[1]//td[2]' ) successful.
+2025-01-23 00:00:20,606 - INFO - Element located by ( 'By.id: edit-contact' ) is visible within the timeout period.
+2025-01-23 00:00:21,253 - INFO - Clicking the element identified by ( 'By.id: edit-contact' ) successful.
+2025-01-23 00:00:21,469 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:21,590 - INFO - Clearing text from the element located by ( 'By.id: email' ).
+2025-01-23 00:00:21,683 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 00:00:21,797 - INFO - Clearing text from the element located by ( 'By.id: phone' ).
+2025-01-23 00:00:25,079 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 00:00:25,301 - INFO - Clearing text from the element located by ( 'By.id: birthdate' ).
+2025-01-23 00:00:25,503 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 00:00:25,726 - INFO - Entering the text value '08-08-2000' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 00:00:25,858 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:26,151 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:26,447 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:26,648 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:29,923 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:00:30,098 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:00:30,242 - INFO - The actual value of the attribute is: ( 'Validation failed: birthdate: Birthdate is invalid' ).
+2025-01-23 00:00:30,341 - INFO - Assertion passed. Actual value: ( 'Validation failed: birthdate: Birthdate is invalid' ), Expected value: ( 'Validation failed: birthdate: Birthdate is invalid' ).
+2025-01-23 00:00:32,472 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:00:32,472 - INFO - ` Date : January 23, 2025 12:00 AM `
+2025-01-23 00:00:32,472 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:00:34,706 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:34,954 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:35,136 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:00:35,321 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 00:00:35,499 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:35,677 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:36,545 - INFO - Element located by ( 'By.id: add-contact' ) is visible within the timeout period.
+2025-01-23 00:00:37,220 - INFO - Clicking the element identified by ( 'By.id: add-contact' ) successful.
+2025-01-23 00:00:37,440 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 00:00:37,579 - INFO - Entering the text value 'Alex' into the element located by ( 'By.id: firstName' ).
+2025-01-23 00:00:37,679 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 00:00:37,820 - INFO - Entering the text value 'Sanders' into the element located by ( 'By.id: lastName' ).
+2025-01-23 00:00:37,932 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 00:00:38,099 - INFO - Entering the text value '1976/12/28' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 00:00:38,192 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:38,370 - INFO - Entering the text value 'barrett.murphy@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:38,481 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 00:00:38,620 - INFO - Entering the text value '016189809' into the element located by ( 'By.id: phone' ).
+2025-01-23 00:00:38,730 - INFO - Element located by ( 'By.id: street1' ) is visible within the timeout period.
+2025-01-23 00:00:38,896 - INFO - Entering the text value '393 Amberly Manor' into the element located by ( 'By.id: street1' ).
+2025-01-23 00:00:39,015 - INFO - Element located by ( 'By.id: street2' ) is visible within the timeout period.
+2025-01-23 00:00:39,178 - INFO - Entering the text value 'Suite 914' into the element located by ( 'By.id: street2' ).
+2025-01-23 00:00:39,275 - INFO - Element located by ( 'By.id: city' ) is visible within the timeout period.
+2025-01-23 00:00:39,426 - INFO - Entering the text value 'Port Walton' into the element located by ( 'By.id: city' ).
+2025-01-23 00:00:39,530 - INFO - Element located by ( 'By.id: stateProvince' ) is visible within the timeout period.
+2025-01-23 00:00:39,659 - INFO - Entering the text value 'Texas' into the element located by ( 'By.id: stateProvince' ).
+2025-01-23 00:00:39,762 - INFO - Element located by ( 'By.id: postalCode' ) is visible within the timeout period.
+2025-01-23 00:00:39,895 - INFO - Entering the text value '62290' into the element located by ( 'By.id: postalCode' ).
+2025-01-23 00:00:39,996 - INFO - Element located by ( 'By.id: country' ) is visible within the timeout period.
+2025-01-23 00:00:40,137 - INFO - Entering the text value 'Greenland' into the element located by ( 'By.id: country' ).
+2025-01-23 00:00:40,334 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:40,486 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:41,596 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 00:00:41,693 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 00:00:41,786 - INFO - The actual value of the attribute is: ( 'Alex Sanders' ).
+2025-01-23 00:00:41,874 - INFO - Assertion passed. Actual value: ( 'Alex Sanders' ), Expected value: ( 'Alex Sanders' ).
+2025-01-23 00:00:42,255 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:00:42,255 - INFO - ` Date : January 23, 2025 12:00 AM `
+2025-01-23 00:00:42,255 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:00:44,338 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:44,545 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:44,667 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:00:44,810 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 00:00:44,908 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:45,051 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:45,957 - INFO - Element located by ( 'By.id: add-contact' ) is visible within the timeout period.
+2025-01-23 00:00:46,651 - INFO - Clicking the element identified by ( 'By.id: add-contact' ) successful.
+2025-01-23 00:00:46,861 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 00:00:46,982 - INFO - Entering the text value '' into the element located by ( 'By.id: firstName' ).
+2025-01-23 00:00:47,095 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 00:00:47,249 - INFO - Entering the text value 'Sanders' into the element located by ( 'By.id: lastName' ).
+2025-01-23 00:00:47,358 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 00:00:47,525 - INFO - Entering the text value '1976/12/28' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 00:00:47,625 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:47,805 - INFO - Entering the text value 'barrett.murphy@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:47,906 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 00:00:48,055 - INFO - Entering the text value '016189809' into the element located by ( 'By.id: phone' ).
+2025-01-23 00:00:48,165 - INFO - Element located by ( 'By.id: street1' ) is visible within the timeout period.
+2025-01-23 00:00:48,382 - INFO - Entering the text value '393 Amberly Manor' into the element located by ( 'By.id: street1' ).
+2025-01-23 00:00:48,490 - INFO - Element located by ( 'By.id: street2' ) is visible within the timeout period.
+2025-01-23 00:00:48,636 - INFO - Entering the text value 'Suite 914' into the element located by ( 'By.id: street2' ).
+2025-01-23 00:00:48,746 - INFO - Element located by ( 'By.id: city' ) is visible within the timeout period.
+2025-01-23 00:00:48,908 - INFO - Entering the text value 'Port Walton' into the element located by ( 'By.id: city' ).
+2025-01-23 00:00:49,009 - INFO - Element located by ( 'By.id: stateProvince' ) is visible within the timeout period.
+2025-01-23 00:00:49,145 - INFO - Entering the text value 'Texas' into the element located by ( 'By.id: stateProvince' ).
+2025-01-23 00:00:49,267 - INFO - Element located by ( 'By.id: postalCode' ) is visible within the timeout period.
+2025-01-23 00:00:49,418 - INFO - Entering the text value '62290' into the element located by ( 'By.id: postalCode' ).
+2025-01-23 00:00:49,518 - INFO - Element located by ( 'By.id: country' ) is visible within the timeout period.
+2025-01-23 00:00:49,672 - INFO - Entering the text value 'Greenland' into the element located by ( 'By.id: country' ).
+2025-01-23 00:00:49,872 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:50,016 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:50,821 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:00:51,024 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:00:51,151 - INFO - The actual value of the attribute is: ( 'Contact validation failed: firstName: Path `firstName` is required.' ).
+2025-01-23 00:00:51,294 - INFO - Assertion passed. Actual value: ( 'Contact validation failed: firstName: Path `firstName` is required.' ), Expected value: ( 'Contact validation failed: firstName: Path `firstName` is required.' ).
+2025-01-23 00:00:51,753 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:00:51,765 - INFO - ` Date : January 23, 2025 12:00 AM `
+2025-01-23 00:00:51,765 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:00:54,164 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:00:54,430 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:00:54,593 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:00:54,813 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 00:00:55,076 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:00:55,302 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:00:56,217 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 00:00:56,405 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 00:00:56,562 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-01-23 00:00:56,752 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-01-23 00:00:57,216 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:00:57,216 - INFO - ` Date : January 23, 2025 12:00 AM `
+2025-01-23 00:00:57,216 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:00:59,796 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:01:00,031 - INFO - Entering the text value 'dianna.gerlach@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:01:00,188 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:01:00,426 - INFO - Entering the text value 'b8ahmnmtcij0p1' into the element located by ( 'By.id: password' ).
+2025-01-23 00:01:00,652 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:01:00,896 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:01:01,200 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:01:01,370 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 00:01:01,509 - INFO - The actual value of the attribute is: ( 'Incorrect username or password' ).
+2025-01-23 00:01:01,669 - INFO - Assertion passed. Actual value: ( 'Incorrect username or password' ), Expected value: ( 'Incorrect username or password' ).
+2025-01-23 00:01:02,172 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:01:02,172 - INFO - ` Date : January 23, 2025 12:01 AM `
+2025-01-23 00:01:02,172 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:01:04,476 - INFO - Element located by ( 'By.id: signup' ) is visible within the timeout period.
+2025-01-23 00:01:05,165 - INFO - Clicking the element identified by ( 'By.id: signup' ) successful.
+2025-01-23 00:01:05,378 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 00:01:05,538 - INFO - Entering the text value 'Dominique' into the element located by ( 'By.id: firstName' ).
+2025-01-23 00:01:05,647 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 00:01:05,786 - INFO - Entering the text value 'McCullough' into the element located by ( 'By.id: lastName' ).
+2025-01-23 00:01:05,902 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:01:06,097 - INFO - Entering the text value 'gregory.champlin@hotmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:01:06,204 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:01:06,369 - INFO - Entering the text value 't32eraor0fs2244' into the element located by ( 'By.id: password' ).
+2025-01-23 00:01:06,580 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:01:06,746 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:01:07,581 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 00:01:07,682 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 00:01:07,772 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-01-23 00:01:07,862 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-01-23 00:01:08,245 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 00:01:08,246 - INFO - ` Date : January 23, 2025 12:01 AM `
+2025-01-23 00:01:08,246 - INFO - ````````````````````````````````````````````````````
+2025-01-23 00:01:10,432 - INFO - Element located by ( 'By.id: signup' ) is visible within the timeout period.
+2025-01-23 00:01:11,136 - INFO - Clicking the element identified by ( 'By.id: signup' ) successful.
+2025-01-23 00:01:11,351 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 00:01:11,543 - INFO - Entering the text value 'InvalidFirstName' into the element located by ( 'By.id: firstName' ).
+2025-01-23 00:01:11,644 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 00:01:11,797 - INFO - Entering the text value 'InvalidLastName' into the element located by ( 'By.id: lastName' ).
+2025-01-23 00:01:11,898 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 00:01:12,048 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 00:01:12,149 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 00:01:12,283 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 00:01:12,475 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 00:01:12,613 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 00:01:13,357 - INFO - Element located by ( 'By.cssSelector: #error' ) is visible within the timeout period.
+2025-01-23 00:01:13,461 - INFO - Element located by ( 'By.cssSelector: #error' ) is visible within the timeout period.
+2025-01-23 00:01:13,559 - INFO - The actual value of the attribute is: ( 'Email address is already in use' ).
+2025-01-23 00:01:13,643 - INFO - Assertion passed. Actual value: ( 'Email address is already in use' ), Expected value: ( 'Email address is already in use' ).

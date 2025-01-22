@@ -140,6 +140,14 @@ public class EditContactPage {
     public void enterEmail(String dataName) throws IOException, AWTException  {
     	waitUtil.implicitWait();
     	keyboardActionsUtil.inputElement(EMAIL_TXT, dataName);
+    	
+    }	
+    
+    public void enterDateOfBirth(String dataName) throws IOException, AWTException  {
+        waitUtil.implicitWait();
+        keyboardActionsUtil.inputElement(DATE_OF_BIRTH_TXT, dataName);
+    	
+    	
     }
 
         /** Verifies that the expected error message is displayed */

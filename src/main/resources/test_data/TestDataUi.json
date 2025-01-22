@@ -1,7 +1,7 @@
 {
   "AddContactFields" : {
-    "firstName": "",
-    "lastName": "Cummings",
+    "firstName": "Alex",
+    "lastName": "Sanders",
     "email": "barrett.murphy@gmail.com",
     "dateOfBirth" : "1976/12/28",
     "phone": "016189809",
@@ -54,8 +54,8 @@
 	},
 		
 	"EditContactDetails" : {
-	 "firstName" : "Updated First Name",
-	"lastName" : "Updated Last Name",
+	 "email" : "updated@yahoo.com",
+	"phone" : "09988765432",
 	"invalidDOB": "08-08-2000"
 	    
 	}		
