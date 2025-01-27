@@ -166,24 +166,23 @@ Please refer to the table below for the list of tags and their description.
 
 | Category   			| Tags            					| Description                     								|
 |-------------------------------|-------------------------------------------------------|---------------------------------	    							|
-| Feature 			| @CreateUser, @UpdateContact, @LoginUser,     	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
-| 				| @UnsuccessfulAddNewContact, @AddNewContact,    	|      												|
-|  				| @DeleteContact, @UnsuccessfulCreateUser,    	|			          								|
-| 				| @UnsuccessfulDeleteContact, 			|    				  								|
-| 				| @UnsuccessfulDetailUpdate, UnsuccessfulUserLogin  |    				  								|
+| Feature 			| @CreateUser, @EditUserContact, @LoginUser,     	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
+| 				| @AddNewContact    	|      												|
+|  				| @DeleteUserContact,    	|			          								|
+| 				| 			|    				  								|
+| 				|    				  								|
 | API	 			| @Api		   					| Use this tag to run all api tests    								|
 | UI	 			| @Ui		   					| Use this tag to run all UI tests    								|
 | Scenario			| @TC1.1		   				| Use this tag to run specific test/scenario under CreateUser feature   			|
-| Scenario			| @TC2.1			   			| Use this tag to run specific test/scenario under LoginUser feature				|
-| Scenario	 		| @TC3.1-6		   				| Use any of these tags to run specific test/scenario under AddNewContact feature    		|
-| Scenario		 	| @TC4.1-5			   			| Use any of these tags to run specific test/scenario under UpdateContact feature 		|
-| Scenario		 	| @TC5.1-5			   			| Use any of these tags to run specific test/scenario under DeleteContact feature 		|
-| Scenario		 	| @TC6.1-2			   			| Use any of these tags to run specific test/scenario under UnsuccessfulCreateUser feature 	|
-| Scenario		 	| @TC7.1-2			   			| Use any of these tags to run specific test/scenario under UnsuccessfulUserLogin feature 	|
-| Scenario		 	| @TC8.1-4			   			| Use any of these tags to run specific test/scenario under UnsuccessfulAddNewContact feature 	|
-| Scenario		 	| @TC9.1-5			   			| Use any of these tags to run specific test/scenario under UnsuccessfulDetailUpdate feature 	|
-| Scenario		 	| @TC10.1			   			| Use any of these tags to run specific test/scenario under UnsuccessfulDeleteContact feature 	|
-
+| Scenario			| @TC3.1			   			| Use this tag to run specific test/scenario under LoginUser feature				|
+| Scenario	 		| @TC3.1-4		   				| Use any of these tags to run specific test/scenario under AddNewContact feature    		|
+| Scenario		 	| @TC7.1-4			   			| Use any of these tags to run specific test/scenario under UpdateContact feature 		|
+| Scenario		 	| @TC8.1			   			| Use any of these tags to run specific test/scenario under DeleteContact feature 		|
+| Scenario		 	| @TC1.2, 4			   		    | Use any of these tags to run specific test/scenario under UnsuccessfulCreateUser feature 	|
+| Scenario		 	| @TC3.2, 4			   			| Use any of these tags to run specific test/scenario under UnsuccessfulUserLogin feature 	|
+| Scenario		 	| @TC4.2, 4			   			| Use any of these tags to run specific test/scenario under UnsuccessfulAddNewContact feature 	|
+| Scenario		 	| @TC7.2, 4		   			    | Use any of these tags to run specific test/scenario under UnsuccessfulDetailUpdate feature 	|
+	|
 
 ## Reporting and Logs
  * reports/extent_html: This folder contains the generated extent/html_report.
