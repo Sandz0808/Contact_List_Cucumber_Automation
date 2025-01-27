@@ -166,11 +166,11 @@ Please refer to the table below for the list of tags and their description.
 
 | Category   			| Tags            					| Description                     								|
 |-------------------------------|-------------------------------------------------------|---------------------------------	    							|
-| Feature 			| @CreateUser, @EditUserContact, @LoginUser   	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
+| Feature 			| @CreateUser   	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
 | 				| @AddNewContact    	|      												|
 |  				| @DeleteUserContact    	|			          								|
-| 				| 			|    				  								|
-| 				|    				  								|
+| 				| @EditUserContact			|    				  								|
+| 				| @LoginUser   				  								|
 | API	 			| @Api		   					| Use this tag to run all api tests    								|
 | UI	 			| @Ui		   					| Use this tag to run all UI tests    								|
 | Scenario			| @TC1.1		   				| Use this tag to run specific test/scenario under CreateUser feature   			|
