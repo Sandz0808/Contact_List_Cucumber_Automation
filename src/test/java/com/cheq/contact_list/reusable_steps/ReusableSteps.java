@@ -81,6 +81,7 @@ public class ReusableSteps {
        
         RestAssured.baseURI = BASE_URI;
         RequestSpecification httpRequest = RestAssured.given();
+       
         
         try {
 	        String requestBody = String.format("{"
@@ -107,14 +108,18 @@ public class ReusableSteps {
 	        String prettyJsonResponse = gson.toJson(gson.fromJson(response.getBody().asString(), Object.class));
 	        logLevel = "INFO";  
 	        reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.ADD_CONTACT_API_MESSAGE, prettyJsonResponse), " ");
+	       
 	        
 	        return response;
+	        
         
         } catch (Exception e) {
         	 logLevel = "ERROR";
         	 reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.FAILED_ADD_CONTACT_API_MESSAGE, firstName), " ");
              throw e;
          }
+        
+      
         
     }
     
@@ -385,4 +390,68 @@ public class ReusableSteps {
         }
     }
     
+    public Response loginUser(String email, String password) throws IOException {
+
+        RestAssured.baseURI = BASE_URI;
+        RequestSpecification httpRequest = RestAssured.given();
+        
+        try {
+        	String requestBody = String.format("{"
+                    + "\"email\": \"%s\","
+                    + "\"password\": \"%s\""
+                    + "}", email, password);
+            
+            httpRequest.body(requestBody);
+            httpRequest.header("Content-Type", "application/json");  
+	        //httpRequest.header("Authorization", "Bearer " + authToken);
+            
+            Response response = httpRequest.post("/users/login");
+
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+ 	        String prettyJsonResponse = gson.toJson(gson.fromJson(response.getBody().asString(), Object.class));
+	        logLevel = "INFO";  
+	        reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.LOGIN_API_MESSAGE, prettyJsonResponse), " ");
+	        
+	        return response;
+        
+        } catch (Exception e) {
+        	 logLevel = "ERROR";
+             reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.FAILED_LOGIN_API_MESSAGE, email.toString()), " ");
+             throw e;
+         }
+
+    }
+    
+    public Response updateUserfirstName(String contactId, String key,  String newInfo, String authToken) throws IOException {
+
+        RestAssured.baseURI = BASE_URI;
+        RequestSpecification httpRequest = RestAssured.given();
+  
+        try {
+            String requestBody = String.format("{\"firstName\": \"%s\"}", newInfo);
+            //String requestBody = String.format("{\"email\": \"%s\"}", email);
+
+            httpRequest.body(requestBody);
+            httpRequest.header("Content-Type", "application/json");
+            httpRequest.header("Authorization", "Bearer " + authToken);
+            
+            Response response = httpRequest.patch("/contacts/" + contactId);
+
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+ 	        String prettyJsonResponse = gson.toJson(gson.fromJson(response.getBody().asString(), Object.class));
+	        logLevel = "INFO";  
+	        reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.UPDATE_CONTACT_API_MESSAGE, prettyJsonResponse), " ");
+	        
+	        return response;
+        
+        } catch (Exception e) {
+        	 logLevel = "ERROR";
+             reportsUtil.resultsReporterAPI(logLevel, LogMessage.formatMessage(LogMessage.FAILED_UPDATE_CONTACT_API_MESSAGE, contactId.toString()), " ");
+             throw e;
+         }
+        
+    }
+    
 }
+    
+

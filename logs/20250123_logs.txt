@@ -169,3 +169,355 @@
 2025-01-23 00:01:13,461 - INFO - Element located by ( 'By.cssSelector: #error' ) is visible within the timeout period.
 2025-01-23 00:01:13,559 - INFO - The actual value of the attribute is: ( 'Email address is already in use' ).
 2025-01-23 00:01:13,643 - INFO - Assertion passed. Actual value: ( 'Email address is already in use' ), Expected value: ( 'Email address is already in use' ).
+2025-01-23 22:38:42,147 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:38:42,159 - INFO - ` Date : January 23, 2025 10:38 PM `
+2025-01-23 22:38:42,160 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:38:48,268 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:38:48,730 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:38:48,864 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:38:49,034 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:38:49,174 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:38:49,351 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:38:52,024 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 22:38:53,501 - INFO - Clicking the element identified by ( 'By.xpath: //tr[1]//td[2]' ) successful.
+2025-01-23 22:38:53,730 - INFO - Element located by ( 'By.id: delete' ) is visible within the timeout period.
+2025-01-23 22:38:53,897 - INFO - Clicking the element identified by ( 'By.id: delete' ) successful.
+2025-01-23 22:38:54,297 - INFO - Element located by ( 'By.cssSelector: div[class='main-content'] header h1' ) is visible within the timeout period.
+2025-01-23 22:38:54,420 - INFO - Element located by ( 'By.cssSelector: div[class='main-content'] header h1' ) is visible within the timeout period.
+2025-01-23 22:38:55,382 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:38:55,383 - INFO - ` Date : January 23, 2025 10:38 PM `
+2025-01-23 22:38:55,384 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:38:57,616 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:38:57,874 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:38:58,008 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:38:58,169 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:38:58,275 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:38:58,432 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:38:59,910 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 22:39:03,163 - INFO - Clicking the element identified by ( 'By.xpath: //tr[1]//td[2]' ) successful.
+2025-01-23 22:39:03,386 - INFO - Element located by ( 'By.id: edit-contact' ) is visible within the timeout period.
+2025-01-23 22:39:04,253 - INFO - Clicking the element identified by ( 'By.id: edit-contact' ) successful.
+2025-01-23 22:39:04,472 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:04,637 - INFO - Clearing text from the element located by ( 'By.id: email' ).
+2025-01-23 22:39:04,736 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:04,854 - INFO - Clearing text from the element located by ( 'By.id: phone' ).
+2025-01-23 22:39:08,100 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:08,310 - INFO - Entering the text value 'updated@yahoo.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:08,416 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:08,603 - INFO - Entering the text value '09988765432' into the element located by ( 'By.id: phone' ).
+2025-01-23 22:39:08,849 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:09,142 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:12,931 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:13,137 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:13,346 - INFO - The actual value of the attribute is: ( 'updated@yahoo.com' ).
+2025-01-23 22:39:13,522 - INFO - Assertion passed. Actual value: ( 'updated@yahoo.com' ), Expected value: ( 'updated@yahoo.com' ).
+2025-01-23 22:39:13,696 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:13,835 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:13,946 - INFO - The actual value of the attribute is: ( '09988765432' ).
+2025-01-23 22:39:14,094 - INFO - Assertion passed. Actual value: ( '09988765432' ), Expected value: ( '09988765432' ).
+2025-01-23 22:39:14,645 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:39:14,645 - INFO - ` Date : January 23, 2025 10:39 PM `
+2025-01-23 22:39:14,645 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:39:17,349 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:17,665 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:17,829 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:39:18,034 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:39:18,225 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:18,459 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:19,938 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 22:39:21,208 - INFO - Clicking the element identified by ( 'By.xpath: //tr[1]//td[2]' ) successful.
+2025-01-23 22:39:21,563 - INFO - Element located by ( 'By.id: edit-contact' ) is visible within the timeout period.
+2025-01-23 22:39:22,350 - INFO - Clicking the element identified by ( 'By.id: edit-contact' ) successful.
+2025-01-23 22:39:22,644 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:22,839 - INFO - Clearing text from the element located by ( 'By.id: email' ).
+2025-01-23 22:39:23,007 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:23,164 - INFO - Clearing text from the element located by ( 'By.id: phone' ).
+2025-01-23 22:39:26,475 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 22:39:26,682 - INFO - Clearing text from the element located by ( 'By.id: birthdate' ).
+2025-01-23 22:39:26,814 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 22:39:27,045 - INFO - Entering the text value '08-08-2000' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 22:39:27,222 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:27,445 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:27,727 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:27,986 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:31,275 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:39:31,465 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:39:31,609 - INFO - The actual value of the attribute is: ( 'Validation failed: birthdate: Birthdate is invalid' ).
+2025-01-23 22:39:31,736 - INFO - Assertion passed. Actual value: ( 'Validation failed: birthdate: Birthdate is invalid' ), Expected value: ( 'Validation failed: birthdate: Birthdate is invalid' ).
+2025-01-23 22:39:32,222 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:39:32,224 - INFO - ` Date : January 23, 2025 10:39 PM `
+2025-01-23 22:39:32,224 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:39:34,575 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:34,818 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:35,024 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:39:35,241 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:39:35,424 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:35,649 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:36,607 - INFO - Element located by ( 'By.id: add-contact' ) is visible within the timeout period.
+2025-01-23 22:39:37,382 - INFO - Clicking the element identified by ( 'By.id: add-contact' ) successful.
+2025-01-23 22:39:37,602 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 22:39:37,728 - INFO - Entering the text value 'Alex' into the element located by ( 'By.id: firstName' ).
+2025-01-23 22:39:37,834 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 22:39:37,970 - INFO - Entering the text value 'Sanders' into the element located by ( 'By.id: lastName' ).
+2025-01-23 22:39:38,080 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 22:39:38,223 - INFO - Entering the text value '1976/12/28' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 22:39:38,330 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:38,512 - INFO - Entering the text value 'barrett.murphy@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:38,615 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:38,759 - INFO - Entering the text value '016189809' into the element located by ( 'By.id: phone' ).
+2025-01-23 22:39:38,867 - INFO - Element located by ( 'By.id: street1' ) is visible within the timeout period.
+2025-01-23 22:39:39,056 - INFO - Entering the text value '393 Amberly Manor' into the element located by ( 'By.id: street1' ).
+2025-01-23 22:39:39,166 - INFO - Element located by ( 'By.id: street2' ) is visible within the timeout period.
+2025-01-23 22:39:39,307 - INFO - Entering the text value 'Suite 914' into the element located by ( 'By.id: street2' ).
+2025-01-23 22:39:39,415 - INFO - Element located by ( 'By.id: city' ) is visible within the timeout period.
+2025-01-23 22:39:39,557 - INFO - Entering the text value 'Port Walton' into the element located by ( 'By.id: city' ).
+2025-01-23 22:39:39,665 - INFO - Element located by ( 'By.id: stateProvince' ) is visible within the timeout period.
+2025-01-23 22:39:39,797 - INFO - Entering the text value 'Texas' into the element located by ( 'By.id: stateProvince' ).
+2025-01-23 22:39:39,899 - INFO - Element located by ( 'By.id: postalCode' ) is visible within the timeout period.
+2025-01-23 22:39:40,031 - INFO - Entering the text value '62290' into the element located by ( 'By.id: postalCode' ).
+2025-01-23 22:39:40,134 - INFO - Element located by ( 'By.id: country' ) is visible within the timeout period.
+2025-01-23 22:39:40,289 - INFO - Entering the text value 'Greenland' into the element located by ( 'By.id: country' ).
+2025-01-23 22:39:40,489 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:40,641 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:41,978 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 22:39:42,081 - INFO - Element located by ( 'By.xpath: //tr[1]//td[2]' ) is visible within the timeout period.
+2025-01-23 22:39:42,172 - INFO - The actual value of the attribute is: ( 'Alex Sanders' ).
+2025-01-23 22:39:42,262 - INFO - Assertion passed. Actual value: ( 'Alex Sanders' ), Expected value: ( 'Alex Sanders' ).
+2025-01-23 22:39:42,681 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:39:42,682 - INFO - ` Date : January 23, 2025 10:39 PM `
+2025-01-23 22:39:42,682 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:39:45,206 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:45,410 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:45,514 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:39:45,659 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:39:45,763 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:45,911 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:46,779 - INFO - Element located by ( 'By.id: add-contact' ) is visible within the timeout period.
+2025-01-23 22:39:47,480 - INFO - Clicking the element identified by ( 'By.id: add-contact' ) successful.
+2025-01-23 22:39:47,746 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 22:39:47,895 - INFO - Entering the text value '' into the element located by ( 'By.id: firstName' ).
+2025-01-23 22:39:48,008 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 22:39:48,164 - INFO - Entering the text value 'Sanders' into the element located by ( 'By.id: lastName' ).
+2025-01-23 22:39:48,288 - INFO - Element located by ( 'By.id: birthdate' ) is visible within the timeout period.
+2025-01-23 22:39:48,463 - INFO - Entering the text value '1976/12/28' into the element located by ( 'By.id: birthdate' ).
+2025-01-23 22:39:48,600 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:48,795 - INFO - Entering the text value 'barrett.murphy@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:48,912 - INFO - Element located by ( 'By.id: phone' ) is visible within the timeout period.
+2025-01-23 22:39:49,082 - INFO - Entering the text value '016189809' into the element located by ( 'By.id: phone' ).
+2025-01-23 22:39:49,218 - INFO - Element located by ( 'By.id: street1' ) is visible within the timeout period.
+2025-01-23 22:39:49,395 - INFO - Entering the text value '393 Amberly Manor' into the element located by ( 'By.id: street1' ).
+2025-01-23 22:39:49,503 - INFO - Element located by ( 'By.id: street2' ) is visible within the timeout period.
+2025-01-23 22:39:49,659 - INFO - Entering the text value 'Suite 914' into the element located by ( 'By.id: street2' ).
+2025-01-23 22:39:49,765 - INFO - Element located by ( 'By.id: city' ) is visible within the timeout period.
+2025-01-23 22:39:49,930 - INFO - Entering the text value 'Port Walton' into the element located by ( 'By.id: city' ).
+2025-01-23 22:39:50,035 - INFO - Element located by ( 'By.id: stateProvince' ) is visible within the timeout period.
+2025-01-23 22:39:50,186 - INFO - Entering the text value 'Texas' into the element located by ( 'By.id: stateProvince' ).
+2025-01-23 22:39:50,299 - INFO - Element located by ( 'By.id: postalCode' ) is visible within the timeout period.
+2025-01-23 22:39:50,444 - INFO - Entering the text value '62290' into the element located by ( 'By.id: postalCode' ).
+2025-01-23 22:39:50,558 - INFO - Element located by ( 'By.id: country' ) is visible within the timeout period.
+2025-01-23 22:39:50,701 - INFO - Entering the text value 'Greenland' into the element located by ( 'By.id: country' ).
+2025-01-23 22:39:50,998 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:51,254 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:52,012 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:39:52,222 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:39:52,427 - INFO - The actual value of the attribute is: ( 'Contact validation failed: firstName: Path `firstName` is required.' ).
+2025-01-23 22:39:52,617 - INFO - Assertion passed. Actual value: ( 'Contact validation failed: firstName: Path `firstName` is required.' ), Expected value: ( 'Contact validation failed: firstName: Path `firstName` is required.' ).
+2025-01-23 22:39:53,091 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:39:53,091 - INFO - ` Date : January 23, 2025 10:39 PM `
+2025-01-23 22:39:53,094 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:39:56,464 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:39:56,721 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:39:56,887 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:39:57,067 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:39:57,346 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:39:57,561 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:39:58,814 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 22:39:58,944 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 22:39:59,108 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-01-23 22:39:59,272 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-01-23 22:39:59,790 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:39:59,806 - INFO - ` Date : January 23, 2025 10:39 PM `
+2025-01-23 22:39:59,806 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:40:04,162 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:40:04,444 - INFO - Entering the text value 'eugene.doyle@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:40:04,613 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:40:04,769 - INFO - Entering the text value '03e7861t4hfn' into the element located by ( 'By.id: password' ).
+2025-01-23 22:40:04,873 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:40:05,011 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:40:05,768 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:40:05,868 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-01-23 22:40:05,958 - INFO - The actual value of the attribute is: ( 'Incorrect username or password' ).
+2025-01-23 22:40:06,053 - INFO - Assertion passed. Actual value: ( 'Incorrect username or password' ), Expected value: ( 'Incorrect username or password' ).
+2025-01-23 22:40:06,476 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:40:06,477 - INFO - ` Date : January 23, 2025 10:40 PM `
+2025-01-23 22:40:06,477 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:40:08,735 - INFO - Element located by ( 'By.id: signup' ) is visible within the timeout period.
+2025-01-23 22:40:09,471 - INFO - Clicking the element identified by ( 'By.id: signup' ) successful.
+2025-01-23 22:40:09,723 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 22:40:09,881 - INFO - Entering the text value 'Aisha' into the element located by ( 'By.id: firstName' ).
+2025-01-23 22:40:09,982 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 22:40:10,116 - INFO - Entering the text value 'Torphy' into the element located by ( 'By.id: lastName' ).
+2025-01-23 22:40:10,220 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:40:10,390 - INFO - Entering the text value 'grady.rice@hotmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:40:10,503 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:40:10,645 - INFO - Entering the text value 'qobkz8loe75' into the element located by ( 'By.id: password' ).
+2025-01-23 22:40:10,840 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:40:10,986 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:40:11,910 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 22:40:12,008 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-01-23 22:40:12,091 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-01-23 22:40:12,194 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-01-23 22:40:12,574 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:40:12,574 - INFO - ` Date : January 23, 2025 10:40 PM `
+2025-01-23 22:40:12,574 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:40:15,639 - INFO - Element located by ( 'By.id: signup' ) is visible within the timeout period.
+2025-01-23 22:40:16,673 - INFO - Clicking the element identified by ( 'By.id: signup' ) successful.
+2025-01-23 22:40:16,906 - INFO - Element located by ( 'By.id: firstName' ) is visible within the timeout period.
+2025-01-23 22:40:17,072 - INFO - Entering the text value 'InvalidFirstName' into the element located by ( 'By.id: firstName' ).
+2025-01-23 22:40:17,170 - INFO - Element located by ( 'By.id: lastName' ) is visible within the timeout period.
+2025-01-23 22:40:17,322 - INFO - Entering the text value 'InvalidLastName' into the element located by ( 'By.id: lastName' ).
+2025-01-23 22:40:17,432 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-01-23 22:40:17,588 - INFO - Entering the text value 'sander@gmail.com' into the element located by ( 'By.id: email' ).
+2025-01-23 22:40:17,702 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-01-23 22:40:17,849 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-01-23 22:40:18,042 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-01-23 22:40:18,196 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-01-23 22:40:18,945 - INFO - Element located by ( 'By.cssSelector: #error' ) is visible within the timeout period.
+2025-01-23 22:40:19,049 - INFO - Element located by ( 'By.cssSelector: #error' ) is visible within the timeout period.
+2025-01-23 22:40:19,157 - INFO - The actual value of the attribute is: ( 'Email address is already in use' ).
+2025-01-23 22:40:19,240 - INFO - Assertion passed. Actual value: ( 'Email address is already in use' ), Expected value: ( 'Email address is already in use' ).
+2025-01-23 22:56:48,302 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:56:48,316 - INFO - ` Date : January 23, 2025 10:56 PM `
+2025-01-23 22:56:48,317 - INFO - ````````````````````````````````````````````````````
+2025-01-23 22:56:48,761 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 22:56:48,762 - INFO - ` Date : January 23, 2025 10:56 PM `
+2025-01-23 22:56:48,762 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:00:02,431 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:00:02,442 - INFO - ` Date : January 23, 2025 11:00 PM `
+2025-01-23 23:00:02,442 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:00:02,854 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:00:02,854 - INFO - ` Date : January 23, 2025 11:00 PM `
+2025-01-23 23:00:02,855 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:01:10,825 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:01:10,834 - INFO - ` Date : January 23, 2025 11:01 PM `
+2025-01-23 23:01:10,834 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:01:11,172 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:01:11,173 - INFO - ` Date : January 23, 2025 11:01 PM `
+2025-01-23 23:01:11,173 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:08:12,056 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:08:12,069 - INFO - ` Date : January 23, 2025 11:08 PM `
+2025-01-23 23:08:12,070 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:08:15,223 - SEVERE - Login via API failed. Email ( 'Sander@gmail.com' ).
+2025-01-23 23:08:15,250 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:08:15,251 - INFO - ` Date : January 23, 2025 11:08 PM `
+2025-01-23 23:08:15,252 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:08:16,508 - SEVERE - Login via API failed. Email ( 'Sander@gmail.com' ).
+2025-01-23 23:08:41,497 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:08:41,506 - INFO - ` Date : January 23, 2025 11:08 PM `
+2025-01-23 23:08:41,506 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:08:44,438 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:08:44,464 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:08:44,465 - INFO - ` Date : January 23, 2025 11:08 PM `
+2025-01-23 23:08:44,466 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:08:45,680 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:11:45,889 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:11:45,899 - INFO - ` Date : January 23, 2025 11:11 PM `
+2025-01-23 23:11:45,899 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:11:48,559 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:11:48,593 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:11:48,593 - INFO - ` Date : January 23, 2025 11:11 PM `
+2025-01-23 23:11:48,595 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:11:49,891 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:13:44,674 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:13:44,686 - INFO - ` Date : January 23, 2025 11:13 PM `
+2025-01-23 23:13:44,687 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:13:47,784 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:13:47,815 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:13:47,815 - INFO - ` Date : January 23, 2025 11:13 PM `
+2025-01-23 23:13:47,817 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:13:49,100 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:16:17,898 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:16:17,910 - INFO - ` Date : January 23, 2025 11:16 PM `
+2025-01-23 23:16:17,910 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:16:20,616 - INFO - Create user via API response body: ( '{
+  "user": {
+    "_id": "67925d44a9c88200134f36e0",
+    "firstName": "Desmond",
+    "lastName": "Hilll",
+    "email": "pamella.ritchie@hotmail.com",
+    "__v": 1.0
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzkyNWQ0NGE5Yzg4MjAwMTM0ZjM2ZTAiLCJpYXQiOjE3Mzc2NDUzODB9.QcrY1wn2kffZ5s0AUZf6xfpkoW2weCWjIkAe8dkQmYI"
+}' ).
+2025-01-23 23:16:20,633 - INFO - Actual response code to: ( '201' ), Expected response code: ( '201' ).
+2025-01-23 23:16:20,649 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:16:20,650 - INFO - ` Date : January 23, 2025 11:16 PM `
+2025-01-23 23:16:20,650 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:16:21,934 - INFO - Create user via API response body: ( '{
+  "user": {
+    "_id": "67925d45feb7290013595b64",
+    "firstName": "Chung",
+    "lastName": "MacGyver",
+    "email": "harold.lemke@gmail.com",
+    "__v": 1.0
+  },
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzkyNWQ0NWZlYjcyOTAwMTM1OTViNjQiLCJpYXQiOjE3Mzc2NDUzODF9.QU_60ckbR9ECbEhie-vGtUIIVyuhYG-axO_e_1I8hyc"
+}' ).
+2025-01-23 23:16:23,326 - INFO - Create user via API response body: ( '{
+  "message": "Email address is already in use"
+}' ).
+2025-01-23 23:16:23,330 - INFO - Actual response code to: ( '400' ), Expected response code: ( '400' ).
+2025-01-23 23:18:22,854 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:18:22,863 - INFO - ` Date : January 23, 2025 11:18 PM `
+2025-01-23 23:18:22,864 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:18:25,412 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:18:25,436 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:18:25,437 - INFO - ` Date : January 23, 2025 11:18 PM `
+2025-01-23 23:18:25,438 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:18:26,774 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:20:22,908 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:20:22,916 - INFO - ` Date : January 23, 2025 11:20 PM `
+2025-01-23 23:20:22,916 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:20:25,551 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:21:04,239 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:21:04,248 - INFO - ` Date : January 23, 2025 11:21 PM `
+2025-01-23 23:21:04,248 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:21:06,856 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:26:28,734 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:26:28,745 - INFO - ` Date : January 23, 2025 11:26 PM `
+2025-01-23 23:26:28,746 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:26:31,946 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:28:27,855 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:28:27,865 - INFO - ` Date : January 23, 2025 11:28 PM `
+2025-01-23 23:28:27,866 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:28:30,543 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:31:08,224 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:31:08,232 - INFO - ` Date : January 23, 2025 11:31 PM `
+2025-01-23 23:31:08,232 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:31:10,840 - SEVERE - Login via API failed. Email ( 'sandro12@gmail.com' ).
+2025-01-23 23:32:32,927 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:32:32,937 - INFO - ` Date : January 23, 2025 11:32 PM `
+2025-01-23 23:32:32,938 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:32:35,588 - SEVERE - Login via API failed. Email ( 'sandro12@gmail.com' ).
+2025-01-23 23:35:59,921 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:35:59,935 - INFO - ` Date : January 23, 2025 11:35 PM `
+2025-01-23 23:35:59,935 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:36:02,875 - INFO - Login via API response body: ( 'null' ).
+2025-01-23 23:36:02,876 - SEVERE - Login failed with status code: 401
+2025-01-23 23:36:02,877 - SEVERE - Login via API failed. Email ( 'sandro12@gmail.com' ).
+2025-01-23 23:39:20,652 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:39:20,665 - INFO - ` Date : January 23, 2025 11:39 PM `
+2025-01-23 23:39:20,666 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:39:24,884 - SEVERE - Login via API failed. Email ( 'sandro12@gmail.com' ).
+2025-01-23 23:44:59,652 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:44:59,663 - INFO - ` Date : January 23, 2025 11:44 PM `
+2025-01-23 23:44:59,665 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:45:02,994 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:58:39,878 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:58:39,889 - INFO - ` Date : January 23, 2025 11:58 PM `
+2025-01-23 23:58:39,890 - INFO - ````````````````````````````````````````````````````
+2025-01-23 23:58:43,128 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).
+2025-01-23 23:59:57,153 - INFO - ````````````````` Start of Test ````````````````````
+2025-01-23 23:59:57,164 - INFO - ` Date : January 23, 2025 11:59 PM `
+2025-01-23 23:59:57,165 - INFO - ````````````````````````````````````````````````````
+2025-01-24 00:00:00,335 - SEVERE - Login via API failed. Email ( 'sander@gmail.com' ).

@@ -43,7 +43,7 @@
   },
   
   "ValidLoginCredentials" : {
-    "email" : "sander@gmail.com",
+    "email" : "sanders@gmail.com",
      "password" : "1234567"
     },
    "InvalidSignup" : {

@@ -1,10 +1,10 @@
 {
   "user" : {
-    "_id" : "678df6a8c025b30013db62bb",
-    "firstName" : "Zoe",
-    "lastName" : "Kautzer",
-    "email" : "abraham.mann@yahoo.com",
+    "_id" : "6796daec54201600139a59ca",
+    "firstName" : "Randolph",
+    "lastName" : "Dach",
+    "email" : "marvel.dare@gmail.com",
     "__v" : 1
   },
-  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzhkZjZhOGMwMjViMzAwMTNkYjYyYmIiLCJpYXQiOjE3MzczNTY5Njh9.26j9gnOl4P-X6dwHYWtUS-NmtGGAppPEib3rMiknAJE"
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2Nzk2ZGFlYzU0MjAxNjAwMTM5YTU5Y2EiLCJpYXQiOjE3Mzc5Mzk2OTJ9.NosSDyQ9HYssH2s3fvrr-Jk7L24SeTvsewxEJCBn6ww"
 }
