@@ -25,7 +25,6 @@ public class UiUserSignUpSteps {
     private ConfigReaderUtil configReaderUtil;
     private String testDataUI;
    
-
     public UiUserSignUpSteps() {
         driver = DriverFactory.getDriver();
         SignupPage = new SignupPage(driver, Hooks.getScreenshotUtil());

@@ -166,7 +166,7 @@ Please refer to the table below for the list of tags and their description.
 
 | Category   			| Tags            					| Description                     								|
 |-------------------------------|-------------------------------------------------------|---------------------------------	    							|
-| Feature 			| @CreateUser   	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
+| Feature 		| @CreateUser   	| Use any of these tags to execute all the scenario(s) under the specified Feature.    		|
 | 				| @AddNewContact    	|      												|
 |  				| @DeleteUserContact    	|			          								|
 | 				| @EditUserContact			|    				  								|

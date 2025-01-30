@@ -1,9 +1,10 @@
 package com.cheq.contact_list.pages;
 
-import java.awt.AWTException;
-import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import java.awt.AWTException;
+import java.io.IOException;
 import com.cheq.contact_list.utils.ElementAssertionUtil;
 import com.cheq.contact_list.utils.ElementKeyboardActionUtil;
 import com.cheq.contact_list.utils.ElementMouseActionUtil;
@@ -17,13 +18,11 @@ public class EditContactPage {
     private ElementMouseActionUtil mouseActionsUtil;
     private ElementKeyboardActionUtil keyboardActionsUtil;
     private ElementAssertionUtil elementAssertUtil;
-    private ScreenshotUtil screenshotUtil; 
     private ElementWaitUtil waitUtil;
     
     /** Constructor to initialize WebDriver and utility classes */
     public EditContactPage(WebDriver driver, ScreenshotUtil screenshotUtil) {
         this.driver = driver;
-        this.screenshotUtil = screenshotUtil;
         this.waitUtil = new ElementWaitUtil(driver, screenshotUtil);
         this.keyboardActionsUtil = new ElementKeyboardActionUtil(driver, screenshotUtil);
         this.mouseActionsUtil = new ElementMouseActionUtil(driver, screenshotUtil);
@@ -43,7 +42,7 @@ public class EditContactPage {
     private By  STATE_TXT = By.id("stateProvince");
     private By  POSTAL_CODE_TXT = By.id("postalCode");
     private By  COUNTRY_TXT = By.id("country");
-    private By CONTACT_FULLNAME_TXT = By.xpath("//table[@id='myTable']/tr[1]/td[2]");
+    private By CONTACT_FULLNAME_TXT = By.xpath("//tr[1]//td[2]");
     private By  SUBMIT_BTN = By.id("submit");
     private By  UPDATE_ERR_LBL = By.id("error");
         
@@ -146,8 +145,6 @@ public class EditContactPage {
     public void enterDateOfBirth(String dataName) throws IOException, AWTException  {
         waitUtil.implicitWait();
         keyboardActionsUtil.inputElement(DATE_OF_BIRTH_TXT, dataName);
-    	
-    	
     }
 
         /** Verifies that the expected error message is displayed */
@@ -185,6 +182,5 @@ public class EditContactPage {
     	waitUtil.implicitWait();
     }
     
-    
-    
+        
 }

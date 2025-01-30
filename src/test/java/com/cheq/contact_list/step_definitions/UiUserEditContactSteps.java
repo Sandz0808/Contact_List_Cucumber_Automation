@@ -10,7 +10,7 @@ import io.cucumber.java.en.When;
 import com.cheq.contact_list.hooks.Hooks;
 import java.util.Properties;
 import com.cheq.contact_list.utils.ConfigReaderUtil;
- import com.cheq.contact_list.utils.DriverFactory;
+import com.cheq.contact_list.utils.DriverFactory;
 import com.cheq.contact_list.utils.DataDictionaryUtil;
 import com.cheq.contact_list.pages.ContactDetailsPage;
 import com.cheq.contact_list.pages.ContactListPage;

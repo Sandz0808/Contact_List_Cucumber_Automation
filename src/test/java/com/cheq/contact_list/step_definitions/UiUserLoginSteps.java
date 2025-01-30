@@ -24,7 +24,6 @@ public class UiUserLoginSteps {
     private ConfigReaderUtil configReaderUtil;
     private String testDataUI;
    
-
     public UiUserLoginSteps() { 
         driver = DriverFactory.getDriver();
         loginPage = new LoginPage(driver, Hooks.getScreenshotUtil());

@@ -1,10 +1,9 @@
 package com.cheq.contact_list.pages;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 import java.awt.AWTException;
 import java.io.IOException;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-
 import com.cheq.contact_list.utils.ElementAssertionUtil;
 import com.cheq.contact_list.utils.ElementKeyboardActionUtil;
 import com.cheq.contact_list.utils.ElementMouseActionUtil;
@@ -19,12 +18,11 @@ public class AddContactPage {
     private ElementMouseActionUtil mouseActionsUtil;
     private ElementKeyboardActionUtil keyboardActionsUtil;
     private ElementAssertionUtil elementAssertUtil;
-    private ScreenshotUtil screenshotUtil; 
+    
     
     /** Constructor to initialize WebDriver and utility classes */
     public AddContactPage(WebDriver driver, ScreenshotUtil screenshotUtil) {
         this.driver = driver;
-        this.screenshotUtil = screenshotUtil;
         this.waitUtil = new ElementWaitUtil(driver, screenshotUtil);
         this.keyboardActionsUtil = new ElementKeyboardActionUtil(driver, screenshotUtil);
         this.mouseActionsUtil = new ElementMouseActionUtil(driver, screenshotUtil);

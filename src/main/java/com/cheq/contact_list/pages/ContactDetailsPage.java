@@ -1,18 +1,19 @@
 package com.cheq.contact_list.pages;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 import java.awt.AWTException;
 import java.io.IOException;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import com.cheq.contact_list.utils.ElementAssertionUtil;
 import com.cheq.contact_list.utils.ElementMouseActionUtil;
 import com.cheq.contact_list.utils.ElementWaitUtil;
 import com.cheq.contact_list.utils.ScreenshotUtil;
 
+
 public class ContactDetailsPage {
 	
-WebDriver driver;
+	WebDriver driver;
     
     private ElementMouseActionUtil mouseActionsUtil;    
     private ElementAssertionUtil elementAssertUtil;    

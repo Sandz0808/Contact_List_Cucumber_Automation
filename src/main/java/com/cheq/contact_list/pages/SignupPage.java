@@ -11,18 +11,15 @@ import com.cheq.contact_list.utils.ElementMouseActionUtil;
 import com.cheq.contact_list.utils.ScreenshotUtil;
 
 public class SignupPage {
-
-    private WebDriver driver;
     
     private ElementMouseActionUtil mouseActionsUtil;
     private ElementKeyboardActionUtil keyboardActionsUtil;
     private ElementAssertionUtil elementAssertUtil;
-    private ScreenshotUtil screenshotUtil;
+    
     
     /** Constructor to initialize WebDriver and utility classes */
     public SignupPage(WebDriver driver, ScreenshotUtil screenshotUtil) {
-        this.driver = driver;
-        this.screenshotUtil = screenshotUtil;
+        
         this.keyboardActionsUtil = new ElementKeyboardActionUtil(driver, screenshotUtil);
         this.mouseActionsUtil = new ElementMouseActionUtil(driver, screenshotUtil);
         this.elementAssertUtil = new ElementAssertionUtil(driver, screenshotUtil);
@@ -36,7 +33,7 @@ public class SignupPage {
     private By EMAIL_TXT = By.id("email");
     private By PASSWORD_TXT = By.id("password");
     private By SUBMIT_BTN = By.id("submit");
-    private By SIGNUP_ERROR_LBL = By.cssSelector("#error");
+    private By SIGNUP_ERROR_LBL = By.id("error");
 
     /** Clicks the sign up button */
     public void clickSignupButton() throws Exception {

@@ -1,17 +1,16 @@
 package com.cheq.contact_list.step_definitions;
 
+import java.io.IOException;
 import io.restassured.response.Response;
 import com.fasterxml.jackson.databind.JsonNode;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import java.io.IOException;
 import java.util.Properties;
 import com.cheq.contact_list.hooks.Hooks;
 import com.cheq.contact_list.utils.ConfigReaderUtil;
 import com.cheq.contact_list.reusable_steps.ReusableSteps;
 import com.cheq.contact_list.utils.DataDictionaryUtil;
 import com.cheq.contact_list.test_data.TestDataGenerator;
-
 
 
 public class ApiAddContactSteps {

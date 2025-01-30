@@ -10,9 +10,8 @@ import com.cheq.contact_list.utils.ConfigReaderUtil;
 import com.cheq.contact_list.hooks.Hooks;
 import java.util.Properties;
 import com.cheq.contact_list.utils.DataDictionaryUtil;
-import com.cheq.contact_list.test_data.TestDataGenerator;
 import com.cheq.contact_list.reusable_steps.ReusableSteps;
-
+import com.cheq.contact_list.test_data.TestDataGenerator;
 
 public class ApiSignupSteps {
 

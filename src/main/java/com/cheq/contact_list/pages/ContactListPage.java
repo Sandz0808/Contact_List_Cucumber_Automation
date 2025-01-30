@@ -1,9 +1,9 @@
 package com.cheq.contact_list.pages;
 
-import java.awt.AWTException;
-import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import java.awt.AWTException;
+import java.io.IOException;
 import com.cheq.contact_list.utils.ElementAssertionUtil;
 import com.cheq.contact_list.utils.ElementMouseActionUtil;
 import com.cheq.contact_list.utils.ScreenshotUtil;
@@ -11,15 +11,13 @@ import com.cheq.contact_list.utils.ScreenshotUtil;
 
 public class ContactListPage {
 	
-    private WebDriver driver;
+    
     private ElementMouseActionUtil mouseActionsUtil;
     private ElementAssertionUtil elementAssertUtil;
     
  
     /** Constructor to initialize WebDriver and utility classes */
     public ContactListPage(WebDriver driver, ScreenshotUtil screenshotUtil) {
-        this.driver = driver;
-        
         this.mouseActionsUtil = new ElementMouseActionUtil(driver, screenshotUtil);
         this.elementAssertUtil = new ElementAssertionUtil(driver, screenshotUtil);
     }
@@ -39,7 +37,6 @@ public class ContactListPage {
     public void clickSelectedContact() throws Exception {
      	mouseActionsUtil.clickElement(CONTACT_FULLNAME_TXT);
     }
-
 
     /** Verifies that a contact is displayed on the page using the element assertion utility */
     public void verifyContactIsDisplayed(String attribute, String expectedValue) throws IOException, AWTException  {

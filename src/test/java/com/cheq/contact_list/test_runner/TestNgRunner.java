@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
-    features = "src/test/resources/features", 
+    features = "src/test/resources/features/UiUserLogin.feature", 
     glue = {"com/cheq/contact_list/step_definitions", "com/cheq/contact_list/hooks", "com/cheq/contact_list/reusable_steps"}, 
     plugin = {
         "pretty", 
@@ -14,6 +14,8 @@ import org.testng.annotations.DataProvider;
         "timeline:test-output-thread/"
     },
     monochrome = true
+    
+    //tags = "@TC3.1"
 
 )
 public class TestNgRunner extends AbstractTestNGCucumberTests{
