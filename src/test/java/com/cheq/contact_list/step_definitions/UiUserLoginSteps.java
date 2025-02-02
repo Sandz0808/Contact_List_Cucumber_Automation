@@ -15,6 +15,7 @@ import com.cheq.contact_list.utils.DataDictionaryUtil;
 import com.cheq.contact_list.utils.DriverFactory;
 import com.cheq.contact_list.pages.LoginPage;
 import com.cheq.contact_list.test_data.TestDataGenerator;
+import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
 
 public class UiUserLoginSteps {
 
@@ -23,6 +24,8 @@ public class UiUserLoginSteps {
     Properties property;
     private ConfigReaderUtil configReaderUtil;
     private String testDataUI;
+    
+   
    
     public UiUserLoginSteps() { 
         driver = DriverFactory.getDriver();
@@ -37,33 +40,64 @@ public class UiUserLoginSteps {
     }
 
     String dataGroup = Hooks.getDataGroup();
+    
+    
 
     @Given("User has an existing account")
     public void user_has_an_existing_account() {
+    	ExtentCucumberAdapter.addTestStepLog("Purpose: Log In with valid credentials via UI");
+    	ExtentCucumberAdapter.addTestStepLog("Priority: 1");
+    	ExtentCucumberAdapter.addTestStepLog("********** Steps **********");
+    	ExtentCucumberAdapter.addTestStepLog("1. Navigate the Contact List App");
+    	ExtentCucumberAdapter.addTestStepLog("2. Enter the Valid Credentials");
+    	ExtentCucumberAdapter.addTestStepLog("3. Click the Submit Button");
+    	ExtentCucumberAdapter.addTestStepLog("4. Verify Sucess Login");
+    	ExtentCucumberAdapter.addTestStepLog("5. Expected Result: 'User should be redirected to the Contact List 'Add New Contact' page and Logout button should be visible");
+    	ExtentCucumberAdapter.addTestStepLog("6. Test Device/Platform: Windows 11 Business Dell Spiron 3501");
+    	ExtentCucumberAdapter.addTestStepLog("7. Test Data: Please refer to TestDataUi.json");
+    	ExtentCucumberAdapter.addTestStepLog("8. Actual Result: Result Below");
+    	   	    	    	    	     	
     }
     
-    @When("the user enters valid credentials")
+       @When("the user enters valid credentials")
     public void the_user_enters_valid_credentials() throws IOException, AWTException {
     	JsonNode loginData = DataDictionaryUtil.getDataNode(testDataUI, "ValidLoginCredentials");
     	
-    	String email = loginData.path("email").asText();
+    	String email = loginData.path("email").asText();	
         String password = loginData.path("password").asText();
+              
         loginPage.enterEmail(email);
         loginPage.enterPassword(password);
+               
     }
 
     @And("the user clicks the Submit button")
     public void the_user_clicks_the_submit_button() throws Exception {
-        loginPage.clickSubmitButton();  
+        loginPage.clickSubmitButton();
+        
     }
 
     @Then("the user verifies that the Contact List Page is displayed")
     public void the_user_verifies_that_the_contact_list_page_ss_displayed() throws IOException, AWTException {
         loginPage.verifyContactListPage("innerText", "Contact List");
+        
     }
     
     @Given("the user has no existing account")
-    public void the_user_has_no_existing_account() {       
+    public void the_user_has_no_existing_account() {
+    	ExtentCucumberAdapter.addTestStepLog("Purpose: Log In with invalid credentials via UI");
+    	ExtentCucumberAdapter.addTestStepLog("Priority: 1");
+    	ExtentCucumberAdapter.addTestStepLog("********** Steps **********");
+    	ExtentCucumberAdapter.addTestStepLog("1. Navigate the Contact List App");
+    	ExtentCucumberAdapter.addTestStepLog("2. Enter the Invalid Credentials");
+    	ExtentCucumberAdapter.addTestStepLog("3. Click the Submit Button");
+    	ExtentCucumberAdapter.addTestStepLog("4. Verify Sucess Login");
+    	ExtentCucumberAdapter.addTestStepLog("5. Expected Result: 'User should be redirected to the Contact List 'Add New Contact' page and Logout button should be visible");
+    	ExtentCucumberAdapter.addTestStepLog("6. Test Device/Platform: Windows 11 Business Dell Spiron 3501");
+    	ExtentCucumberAdapter.addTestStepLog("7. Test Data: Please refer to TestDataUi.json");
+    	ExtentCucumberAdapter.addTestStepLog("8. Actual Result: Result Below");
+    	   	
+    	    	
     }
     
     @When("the user enters invalid credentials")
@@ -72,11 +106,13 @@ public class UiUserLoginSteps {
         String password = TestDataGenerator.getGeneratedDataFromDictionary(dataGroup, "password");
         loginPage.enterEmail(email);
         loginPage.enterPassword(password);
-        loginPage.clickSubmitButton();  
+        loginPage.clickSubmitButton();
+       
     }
     
     @Then("the user verifies the corresponding error message")
     public void the_user_verifies_the_corresponding_error_message() throws IOException, AWTException {
         loginPage.verifyInvalidCredErrorMessage("innerText", "Incorrect username or password");
+        
     }
 }

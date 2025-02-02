@@ -1,16 +1,3 @@
 {
-  "_id" : "679af523bfcd400013606d2d",
-  "firstName" : "Terri",
-  "lastName" : "Russel",
-  "birthdate" : "2001/10/13",
-  "email" : "lanny.johnston@hotmail.com",
-  "phone" : "1944902",
-  "street1" : "2322 Reilly Meadows",
-  "street2" : "Apt. 536",
-  "city" : "Lake Oscar",
-  "stateProvince" : "Virginia",
-  "postalCode" : "48952",
-  "country" : "Macao",
-  "owner" : "679af521bfcd400013606d2b",
-  "__v" : 0
+  "error" : "Please authenticate."
 }
