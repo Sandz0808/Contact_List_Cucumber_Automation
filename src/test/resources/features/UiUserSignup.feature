@@ -1,4 +1,4 @@
-@UserSignup @Regression
+@UserSignup @Regression @UI
 Feature: UserSignup
 
   @TC1.1 @smoke
@@ -14,3 +14,5 @@ Feature: UserSignup
     When the user enters invalid information details
     And the user clicks the Submit button
     Then the user verifies the error message
+    
+    

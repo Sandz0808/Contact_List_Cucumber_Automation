@@ -1,3 +1,10 @@
 {
-  "message" : "Email address is already in use"
+  "user" : {
+    "_id" : "67a0b1b013aada001325ef77",
+    "firstName" : "Loria",
+    "lastName" : "Hagenes",
+    "email" : "stevie.schowalter@hotmail.com",
+    "__v" : 1
+  },
+  "token" : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2EwYjFiMDEzYWFkYTAwMTMyNWVmNzciLCJpYXQiOjE3Mzg1ODQ0OTZ9.AeMdNc4PjAlIxF16Ud39dcTdPwaEqfk8i88xhf-Z-6w"
 }

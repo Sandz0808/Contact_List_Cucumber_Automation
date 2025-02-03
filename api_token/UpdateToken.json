@@ -1,3 +1,16 @@
 {
-  "error" : "Please authenticate."
+  "_id" : "67a0b19bb32b0c0013a105f4",
+  "firstName" : "Tony",
+  "lastName" : "Spencer",
+  "birthdate" : "1969/09/07",
+  "email" : "aurore.sporer@gmail.com",
+  "phone" : "5210680",
+  "street1" : "7319 Ziemann Locks",
+  "street2" : "Suite 585",
+  "city" : "New Hassanton",
+  "stateProvince" : "Indiana",
+  "postalCode" : "42948",
+  "country" : "Benin",
+  "owner" : "67a0b19713aada001325ef6f",
+  "__v" : 0
 }

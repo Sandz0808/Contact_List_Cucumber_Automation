@@ -45,7 +45,6 @@ public class Hooks {
         String folderPath = baseFolderPath + File.separator + timestamp + File.separator;
         new File(folderPath).mkdirs();
         timestampedFolder = folderPath;
-        
     }
     
     @Before(order = 0)
@@ -112,24 +111,32 @@ public class Hooks {
     
     @AfterStep(order = 0)
     public void actionAfterEachStep(Scenario scenario) {
+        // Skip hooks if needed
         DataDictionaryUtil.clearDataCache();
         if (skipHooks) {
             return;
         }
 
+        // Capture screenshot only
         if (driver instanceof TakesScreenshot) {
             TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
             byte[] screenshot = takesScreenshot.getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "Step Screenshot");
+            scenario.attach(screenshot, "image/png", "📸 Step Screenshot");
         }
     }
     
     @AfterStep(order = 1)
     public void logStepDetails(Scenario scenario) {
+        // Log only if necessary
+        if (skipHooks) {
+            return;
+        }
+
+        // Log scenario result based on the status (pass/fail)
         if (scenario.isFailed()) {
-            ExtentCucumberAdapter.addTestStepLog("❌ Step Failed: " + scenario.getName());
+            ExtentCucumberAdapter.addTestStepLog("❌ Scenario Failed: " + scenario.getName());
         } else {
-            ExtentCucumberAdapter.addTestStepLog("✅ Step Passed: " + scenario.getName());
+            ExtentCucumberAdapter.addTestStepLog("✅ Scenario Passed: " + scenario.getName());
         }
     }
     
@@ -176,7 +183,7 @@ public class Hooks {
                 logLevel = "INFO";  
                 LoggerUtil.logMessage(logLevel, LogMessage.formatMessage(LogMessage.CLEANUP_MESSAGE), "Logout");
             } catch (Exception e) {
-                
+                // Handle exception if necessary
             }
         }
     }

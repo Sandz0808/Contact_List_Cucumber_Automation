@@ -1,5 +1,6 @@
-@AddNewContact
+@AddNewContact @UI
 Feature: UserAddNewContact
+
 
   
 	@TC4.1  

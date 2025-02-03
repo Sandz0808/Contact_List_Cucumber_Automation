@@ -5,15 +5,18 @@ import java.nio.file.Paths;
 import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class DriverFactory {
 
     private WebDriver driver;
-    private Properties property;
-    private ConfigReaderUtil configReaderUtil;
+    private final Properties property;
+    private final ConfigReaderUtil configReaderUtil;
 
     /** Constructor initializes ConfigReader and loads properties. */
     public DriverFactory() {
@@ -26,29 +29,53 @@ public class DriverFactory {
     /** Initializes the WebDriver based on the specified or system default browser. */
     public WebDriver initializeDriver(String browser) {
         String rootDirectory = Paths.get("").toAbsolutePath().toString();
-        
+
+        // Read headless from config.ini
+        boolean headless = Boolean.parseBoolean(property.getProperty("headless", "false"));
+
+        // Allow overriding with system property
+        headless = Boolean.parseBoolean(System.getProperty("headless", String.valueOf(headless)));
+
         String systemBrowser = System.getProperty("browser", "chrome").toLowerCase();
-        String selectedBrowser = (browser != null && !browser.isEmpty()) ? browser.toLowerCase() : systemBrowser.toLowerCase();
+        String selectedBrowser = (browser != null && !browser.isEmpty()) ? browser.toLowerCase() : systemBrowser;
 
         System.out.println("Browser selected: " + selectedBrowser);
+        System.out.println("Headless mode: " + headless);
 
-        if (selectedBrowser.equals("chrome")) {
-            String chromedriverPath = property.getProperty("chrome_driver_path");
-            System.setProperty("webdriver.chrome.driver", rootDirectory + chromedriverPath);
-            tlDriver.set(new ChromeDriver());
-        } else if (selectedBrowser.equals("edge")) {
-            String edgedriverPath = property.getProperty("edge_driver_path");
-            System.setProperty("webdriver.edge.driver", rootDirectory + edgedriverPath);
-            tlDriver.set(new EdgeDriver());
-        } else if (selectedBrowser.equals("firefox")) {
-            String geckodriverPath = property.getProperty("gecko_driver_path");
-            System.setProperty("webdriver.gecko.driver", rootDirectory + geckodriverPath);
-            tlDriver.set(new FirefoxDriver());
-        } else if (selectedBrowser.equals("safari")) {
-            WebDriverManager.safaridriver().setup();
-            tlDriver.set(new SafariDriver());
-        } else {
-            throw new IllegalArgumentException("Unsupported browser: " + selectedBrowser);
+        switch (selectedBrowser) {
+            case "chrome": {
+                String chromedriverPath = property.getProperty("chrome_driver_path");
+                System.setProperty("webdriver.chrome.driver", rootDirectory + chromedriverPath);
+                ChromeOptions options = new ChromeOptions();
+                if (headless) options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+                tlDriver.set(new ChromeDriver(options));
+                break;
+            }
+            case "edge": {
+                String edgedriverPath = property.getProperty("edge_driver_path");
+                System.setProperty("webdriver.edge.driver", rootDirectory + edgedriverPath);
+                EdgeOptions options = new EdgeOptions();
+                if (headless) options.addArguments("--headless");
+                tlDriver.set(new EdgeDriver(options));
+                break;
+            }
+            case "firefox": {
+                String geckodriverPath = property.getProperty("gecko_driver_path");
+                System.setProperty("webdriver.gecko.driver", rootDirectory + geckodriverPath);
+                FirefoxOptions options = new FirefoxOptions();
+                if (headless) options.addArguments("-headless");
+                tlDriver.set(new FirefoxDriver(options));
+                break;
+            }
+            case "safari":
+                WebDriverManager.safaridriver().setup();
+                if (headless) {
+                    throw new UnsupportedOperationException("Headless mode is not supported for Safari");
+                }
+                tlDriver.set(new SafariDriver());
+                break;
+            default:
+                throw new IllegalArgumentException("Unsupported browser: " + selectedBrowser);
         }
 
         String baseUrl = System.getProperty("base.url");
@@ -57,8 +84,7 @@ public class DriverFactory {
             baseUrl = property.getProperty("url");
         }
 
-        System.out.println("Navigating to: " + baseUrl);
-        getDriver().get(baseUrl); // Open the browser with the URL
+        getDriver().get(baseUrl);
         getDriver().manage().deleteAllCookies();
         getDriver().manage().window().maximize();
 

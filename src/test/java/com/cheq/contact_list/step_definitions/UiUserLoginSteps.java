@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import java.awt.AWTException;
 import java.io.IOException;
 import com.fasterxml.jackson.databind.JsonNode;
+
+import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -42,21 +44,23 @@ public class UiUserLoginSteps {
     String dataGroup = Hooks.getDataGroup();
     
     
+    @Before("@TC3.1")
+    public void logTestDetails() {
+        ExtentCucumberAdapter.addTestStepLog("💡 Purpose: Log In with valid credentials via UI");
+        ExtentCucumberAdapter.addTestStepLog("★ Priority: 1️⃣");
+        ExtentCucumberAdapter.addTestStepLog("👣 STEPS:");
+        ExtentCucumberAdapter.addTestStepLog("1️⃣. Navigate the Contact List App");
+        ExtentCucumberAdapter.addTestStepLog("2️⃣. Enter the Valid Credentials");
+        ExtentCucumberAdapter.addTestStepLog("3️⃣. Click the Submit Button");
+        ExtentCucumberAdapter.addTestStepLog("4️⃣. Verify Success Login");
+        ExtentCucumberAdapter.addTestStepLog("═════════════════════════════════════════════════════════════");
+    }
 
+    
     @Given("User has an existing account")
     public void user_has_an_existing_account() {
-    	ExtentCucumberAdapter.addTestStepLog("Purpose: Log In with valid credentials via UI");
-    	ExtentCucumberAdapter.addTestStepLog("Priority: 1");
-    	ExtentCucumberAdapter.addTestStepLog("********** Steps **********");
-    	ExtentCucumberAdapter.addTestStepLog("1. Navigate the Contact List App");
-    	ExtentCucumberAdapter.addTestStepLog("2. Enter the Valid Credentials");
-    	ExtentCucumberAdapter.addTestStepLog("3. Click the Submit Button");
-    	ExtentCucumberAdapter.addTestStepLog("4. Verify Sucess Login");
-    	ExtentCucumberAdapter.addTestStepLog("5. Expected Result: 'User should be redirected to the Contact List 'Add New Contact' page and Logout button should be visible");
-    	ExtentCucumberAdapter.addTestStepLog("6. Test Device/Platform: Windows 11 Business Dell Spiron 3501");
-    	ExtentCucumberAdapter.addTestStepLog("7. Test Data: Please refer to TestDataUi.json");
-    	ExtentCucumberAdapter.addTestStepLog("8. Actual Result: Result Below");
-    	   	    	    	    	     	
+    	
+    	
     }
     
        @When("the user enters valid credentials")
@@ -83,21 +87,23 @@ public class UiUserLoginSteps {
         
     }
     
+    
+    @Before("@TC3.2")
+    public void logTestDetailsNegative() {
+        ExtentCucumberAdapter.addTestStepLog("💡 Purpose: Log In with Invalid credentials via UI");
+        ExtentCucumberAdapter.addTestStepLog("★ Priority: 1️⃣");
+        ExtentCucumberAdapter.addTestStepLog("👣 STEPS:");
+        ExtentCucumberAdapter.addTestStepLog("1️⃣. Navigate the Contact List App");
+        ExtentCucumberAdapter.addTestStepLog("2️⃣. Enter the Invalid Credentials");
+        ExtentCucumberAdapter.addTestStepLog("3️⃣. Click the Submit Button");
+        ExtentCucumberAdapter.addTestStepLog("4️⃣. Verify Failed Login");
+        ExtentCucumberAdapter.addTestStepLog("═════════════════════════════════════════════════════════════");
+    }
+    
     @Given("the user has no existing account")
     public void the_user_has_no_existing_account() {
-    	ExtentCucumberAdapter.addTestStepLog("Purpose: Log In with invalid credentials via UI");
-    	ExtentCucumberAdapter.addTestStepLog("Priority: 1");
-    	ExtentCucumberAdapter.addTestStepLog("********** Steps **********");
-    	ExtentCucumberAdapter.addTestStepLog("1. Navigate the Contact List App");
-    	ExtentCucumberAdapter.addTestStepLog("2. Enter the Invalid Credentials");
-    	ExtentCucumberAdapter.addTestStepLog("3. Click the Submit Button");
-    	ExtentCucumberAdapter.addTestStepLog("4. Verify Sucess Login");
-    	ExtentCucumberAdapter.addTestStepLog("5. Expected Result: 'User should be redirected to the Contact List 'Add New Contact' page and Logout button should be visible");
-    	ExtentCucumberAdapter.addTestStepLog("6. Test Device/Platform: Windows 11 Business Dell Spiron 3501");
-    	ExtentCucumberAdapter.addTestStepLog("7. Test Data: Please refer to TestDataUi.json");
-    	ExtentCucumberAdapter.addTestStepLog("8. Actual Result: Result Below");
-    	   	
-    	    	
+    	
+    	   	   	    	
     }
     
     @When("the user enters invalid credentials")

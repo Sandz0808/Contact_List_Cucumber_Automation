@@ -1,4 +1,4 @@
-@EditUserContactDetails
+@EditUserContactDetails @UI
 Feature: EditUserContactDetails
 
   

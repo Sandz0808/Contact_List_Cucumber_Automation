@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
         "pretty", 
         "html:reports/extent_html/extent_report.html", 
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", 
-        "timeline:test-output-thread/"
+        "timeline:test-output-thread/",
+        "json:target/cucumber-reports/cucumber.json"
       },
     tags = "@LoginUser"  
     

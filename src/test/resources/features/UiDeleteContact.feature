@@ -1,4 +1,4 @@
-@DeleteUserContact
+@DeleteUserContact @UI
 Feature: DeleteUserContact
 
   
