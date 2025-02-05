@@ -45,7 +45,7 @@ public class UiUserLoginSteps {
     
     
     @Before("@TC3.1")
-    public void logTestDetails() {
+    public void Test_Case_TC3_1() {
         ExtentCucumberAdapter.addTestStepLog("💡 Purpose: Log In with valid credentials via UI");
         ExtentCucumberAdapter.addTestStepLog("★ Priority: 1️⃣");
         ExtentCucumberAdapter.addTestStepLog("👣 STEPS:");
@@ -89,7 +89,7 @@ public class UiUserLoginSteps {
     
     
     @Before("@TC3.2")
-    public void logTestDetailsNegative() {
+    public void Test_Case_TC3_2() {
         ExtentCucumberAdapter.addTestStepLog("💡 Purpose: Log In with Invalid credentials via UI");
         ExtentCucumberAdapter.addTestStepLog("★ Priority: 1️⃣");
         ExtentCucumberAdapter.addTestStepLog("👣 STEPS:");

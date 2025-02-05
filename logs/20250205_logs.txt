@@ -1,0 +1,26 @@
+2025-02-05 10:56:19,683 - INFO - ````````````````` Start of Test ````````````````````
+2025-02-05 10:56:19,689 - INFO - ` Date : February 05, 2025 10:56 AM `
+2025-02-05 10:56:19,690 - INFO - ````````````````````````````````````````````````````
+2025-02-05 10:56:23,728 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-02-05 10:56:24,014 - INFO - Entering the text value 'sanders@gmail.com' into the element located by ( 'By.id: email' ).
+2025-02-05 10:56:24,129 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-02-05 10:56:24,279 - INFO - Entering the text value '1234567' into the element located by ( 'By.id: password' ).
+2025-02-05 10:56:24,488 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-02-05 10:56:24,639 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-02-05 10:56:28,095 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-02-05 10:56:28,267 - INFO - Element located by ( 'By.cssSelector: .main-content header h1' ) is visible within the timeout period.
+2025-02-05 10:56:28,448 - INFO - The actual value of the attribute is: ( 'Contact List' ).
+2025-02-05 10:56:28,591 - INFO - Assertion passed. Actual value: ( 'Contact List' ), Expected value: ( 'Contact List' ).
+2025-02-05 10:56:29,113 - INFO - ````````````````` Start of Test ````````````````````
+2025-02-05 10:56:29,115 - INFO - ` Date : February 05, 2025 10:56 AM `
+2025-02-05 10:56:29,115 - INFO - ````````````````````````````````````````````````````
+2025-02-05 10:56:32,525 - INFO - Element located by ( 'By.id: email' ) is visible within the timeout period.
+2025-02-05 10:56:32,785 - INFO - Entering the text value 'raye.turcotte@gmail.com' into the element located by ( 'By.id: email' ).
+2025-02-05 10:56:32,976 - INFO - Element located by ( 'By.id: password' ) is visible within the timeout period.
+2025-02-05 10:56:33,167 - INFO - Entering the text value 'he6uae8g' into the element located by ( 'By.id: password' ).
+2025-02-05 10:56:33,303 - INFO - Element located by ( 'By.id: submit' ) is visible within the timeout period.
+2025-02-05 10:56:33,459 - INFO - Clicking the element identified by ( 'By.id: submit' ) successful.
+2025-02-05 10:56:34,272 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-02-05 10:56:34,420 - INFO - Element located by ( 'By.id: error' ) is visible within the timeout period.
+2025-02-05 10:56:34,614 - INFO - The actual value of the attribute is: ( 'Incorrect username or password' ).
+2025-02-05 10:56:34,776 - INFO - Assertion passed. Actual value: ( 'Incorrect username or password' ), Expected value: ( 'Incorrect username or password' ).
